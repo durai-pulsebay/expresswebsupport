@@ -16,7 +16,7 @@ const Home = () => {
                     <p class="m-3 max-w-2xl text-xl text-center mx-auto italic">Express Shopify Support is a team of experts aiming to solve your website problems. Get an instant quote for any Shopify related design and development.</p>
                     <a class="bg-lite-green text-center font-medium text-[#fff] min-w-[100px] py-2 px-5 m-5 my-auto rounded "
                         href="">Let's Get Started</a>
-                    <img class="mx-auto py-5" src="./assets/images/hero-bnr-1.png" width="60%" alt="" />
+                    <img class="mx-auto py-5" src={`${window.origin}/assets/images/hero-bnr-1.png`} width="60%" alt="" />
                 </div>
             </div>
         </section>
@@ -24,7 +24,7 @@ const Home = () => {
             <div class="container mx-auto flex flex-wrap justify-center">
                 <div class="sm:w-1/2 sm:px-10">
                     <div class=" sm:w-3/4 bg-sandel-clr  p-10 rounded-xl ">
-                        <img class="py-5" src="assets/images/shield.png" alt="" width="100px;" />
+                        <img class="py-5" src={`${window.origin}/assets/images/shield.png`} alt="" width="100px;" />
                         <h2 class="text-3xl font-semibold">No Fix, No Fee</h2>
                         <p class="py-3 max-w-xs">
                             100% Satisfaction Guaranteed or Money Refunded
@@ -33,13 +33,13 @@ const Home = () => {
                             <p class="max-w-xs">
                                 Express Shopify Support is a support service for ecommerce businesses on Shopify. We guarantee to have any issue resolved within 48 hours and 100% satisfaction guaranteed or money refunded. Our mission is to give the best customer experience possible and make sure every customer leaves happy by providing high quality services at an affordable price.
                             </p>
-                            <img class="p-3" src="assets/images/icon-smile.png" alt="" />
+                            <img class="p-3" src={`${window.origin}/assets/images/icon-smile.png`} alt="" />
                         </div>
                     </div>
                 </div>
                 <div class="sm:w-1/2 text-center">
                     <div class="sm:p-10 ">
-                        <img class="p-5 md:w-[70%]" src="assets/images/shopify-logo.svg" alt="" />
+                        <img class="p-5 md:w-[70%]" src={`${window.origin}/assets/images/shopify-logo.svg`} alt="" />
                         <p class="text-[#91d63f] text-center text-2xl my-5 md:w-[80%] ">
                             Plan Starts From<span class="text-[#ffffff] text-7xl font-semibold">$49</span>
                         </p>
@@ -62,7 +62,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div class="sm:w-1/2 text-right py-5">
-                    <img class="w-[80%] mx-auto" src="assets/images/robo-ask.svg" alt="" />
+                    <img class="w-[80%] mx-auto" src={`${window.origin}/assets/images/robo-ask.svg`} alt="" />
                 </div>
                 <div class="sm:w-1/2 py-5">
                     <h2 class="font-semibold text-2xl text-[#144645]">
@@ -86,7 +86,7 @@ const Home = () => {
                         href="">Let's Chat</a>
                 </div>
                 <div class="sm:w-1/2 py-5">
-                    <img class="w-[80%] mx-auto" src="assets/images/customer-ask.svg" alt="" />
+                    <img class="w-[80%] mx-auto" src={`${window.origin}/assets/images/customer-ask.svg`} alt="" />
                 </div>
             </div>
         </section>

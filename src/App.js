@@ -20,12 +20,13 @@ export default function App() {
   const [countryName, setCountryName] = useState(null);
   const [currency, setCurrency] = useState(null);
   window.countryName = countryName;
+  window.countryCode = countryCode;
 
   useEffect(() => {
     fetch(URL, { method: "get" })
       .then((response) => response.json())
       .then((data) => {
-        setCountryCode(data && data.country_code);
+        setCountryCode(data && data.country_code.toLowerCase());
         setCountryName(data && data.country_name);
         setCurrency(data && data.currency);
       });

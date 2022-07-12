@@ -10,10 +10,10 @@ const Footer = () => {
                 <div class="my-auto py-3  text-[#fff]">
                     <button class="hidden"></button>
                     <ul class="flex py-3">
-                        <li class="pr-5"><a class="px-3" href="/">Home</a></li>
-                        <li class="pr-5"><a class="px-3" href="what-can-we-fix">What can we fix</a></li>
-                        <li class="pr-5"><a class="px-3" href="contact">Contact</a></li>
-                        <li class="pr-5"><a class="px-3" href="privacy-policy">Privacy Policy</a></li>
+                        <li class="pr-5"><a class="px-3" href={`${window.origin}/${window.countryCode}/`}>Home</a></li>
+                        <li class="pr-5"><a class="px-3" href={`${window.origin}/${window.countryCode}/how-can-we-help`}>How can we help</a></li>
+                        <li class="pr-5"><a class="px-3" href={`${window.origin}/${window.countryCode}/contact`}>Contact</a></li>
+                        <li class="pr-5"><a class="px-3" href={`${window.origin}/${window.countryCode}/privacy-policy`}>Privacy Policy</a></li>
                     </ul>
                 </div>
                 <div class="flex justify-center py-3">
@@ -24,7 +24,7 @@ const Footer = () => {
             </div>
             <div class="container text-center py-3 text-[#ffffff] border-t border-[#FBF7ED] ">
                 <div>
-                    <p>Copyrights 2022 all rights reserved <span class="font-medium text-[#91D63F]">Experess Shopify
+                    <p>Copyrights 2022 all rights reserved <span class="font-medium text-[#91D63F]">Express Shopify
                         Support</span></p>
                 </div>
 

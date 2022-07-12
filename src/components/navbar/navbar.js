@@ -4,8 +4,8 @@ const Navbar = () => {
     return (<div>
         <nav class="border-gray-200 dark:bg-gray-800">
             <div class="container flex flex-wrap justify-between items-center mx-auto">
-                <a href="/" class="max-w-[60%] ">
-                    <img src="/assets/images/logo.png" class="mr-3 w-[180px] " alt="logo" />
+                <a href={`${window.origin}/${window.countryCode}/`} class="max-w-[60%] ">
+                    <img src={`${window.origin}/assets/images/logo.png`} class="mr-3 w-[180px] " alt="logo" />
                 </a>
                 <div class="flex  lg:order-2">
                     <button type="button"
@@ -35,16 +35,16 @@ const Navbar = () => {
                 <div class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-4">
                     <ul class="flex flex-col mt-4 lg:flex-row lg:space-x-8 lg:mt-0 lg:text-sm lg:font-medium">
                         <li>
-                            <a href="/" class="block py-2 pr-4 pl-3 text-[#434343] bg-[#A5A7A2] rounded md:bg-transparent lg:text-[#144645] md:p-0 dark:text-white"
+                            <a href={`${window.origin}/${window.countryCode}/`} class="block py-2 pr-4 pl-3 text-[#434343] bg-[#A5A7A2] rounded md:bg-transparent lg:text-[#144645] md:p-0 dark:text-white"
                                 aria-current="page">Home</a>
                         </li>
                         <li>
-                            <a href="/how-can-we-help" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-[#144645]] lg:p-0 lg:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">How
+                            <a href={`${window.origin}/${window.countryCode}/how-can-we-help`} class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-[#144645]] lg:p-0 lg:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">How
                                 can we help</a>
                         </li>
 
                         <li>
-                            <a href="/contact" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-[#144645] lg:p-0 lg:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+                            <a href={`${window.origin}/${window.countryCode}/contact`} class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-[#144645] lg:p-0 lg:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
                         </li>
 
                         <li>
@@ -60,8 +60,8 @@ const Navbar = () => {
                     </ul>
                 </div>
             </div>
-        </nav>
-    </div>);
+        </nav >
+    </div >);
 }
 
 export default Navbar;
