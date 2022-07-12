@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="648" viewBox="0 0 1920 648">
+  <g id="Group_818" data-name="Group 818" transform="translate(24550 -7923)">
+    <rect id="Rectangle_635" data-name="Rectangle 635" width="1920" height="648" transform="translate(-24550 7923)" fill="#fbf7ed"/>
+    <path id="Path_1407" data-name="Path 1407" d="M184,0C285.62,0,368,81.932,368,183S285.62,366,184,366Z" transform="translate(-24734 8064)" fill="#59aca7"/>
+    <g id="Path_1408" data-name="Path 1408" transform="translate(-24799 7998)" fill="none">
+      <path d="M249,0C386.519,0,498,111.481,498,249S386.519,498,249,498Z" stroke="none"/>
+      <path d="M 261 12.30001831054688 L 261 485.6999816894531 C 386.1341857910156 479.4353332519531 486 375.6622314453125 486 249 C 486 122.3377685546875 386.1341857910156 18.56466674804688 261 12.30001831054688 M 249 0 C 386.5189208984375 0 498 111.4810791015625 498 249 C 498 386.5189208984375 386.5189208984375 498 249 498 C 249 269.796142578125 249 325.3490600585938 249 0 Z" stroke="none" fill="#59aca7"/>
+    </g>
+    <path id="Rectangle_636" data-name="Rectangle 636" d="M0,0H7A18,18,0,0,1,25,18V54a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(-24550 8010)" fill="#fbf7ed"/>
+    <path id="Rectangle_637" data-name="Rectangle 637" d="M0,0H16a9,9,0,0,1,9,9V38A16,16,0,0,1,9,54H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(-24550 8430)" fill="#fbf7ed"/>
+  </g>
+</svg>

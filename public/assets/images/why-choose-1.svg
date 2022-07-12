@@ -1,0 +1,14 @@
+<svg id="why-choose-1" xmlns="http://www.w3.org/2000/svg" width="1920" height="648" viewBox="0 0 1920 648">
+  <g id="Group_820" data-name="Group 820">
+    <g id="Group_818" data-name="Group 818">
+      <rect id="Rectangle_635" data-name="Rectangle 635" width="1920" height="648" fill="#fbf7ed"/>
+      <path id="Path_1407" data-name="Path 1407" d="M368,0C266.38,0,184,81.932,184,183s82.38,183,184,183Z" transform="translate(1552 141)" fill="#59aca7"/>
+      <g id="Path_1408" data-name="Path 1408" transform="translate(1422 75)" fill="none">
+        <path d="M498,0C360.481,0,249,111.481,249,249S360.481,498,498,498Z" stroke="none"/>
+        <path d="M 486 12.30001831054688 C 360.8658142089844 18.56466674804688 261 122.3377685546875 261 249 C 261 375.6622314453125 360.8658142089844 479.4353332519531 486 485.6999816894531 L 486 12.30001831054688 M 498 0 C 498 325.3490600585938 498 269.796142578125 498 498 C 360.4810791015625 498 249 386.5189208984375 249 249 C 249 111.4810791015625 360.4810791015625 0 498 0 Z" stroke="none" fill="#59aca7"/>
+      </g>
+      <path id="Rectangle_636" data-name="Rectangle 636" d="M18,0h7a0,0,0,0,1,0,0V54a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V18A18,18,0,0,1,18,0Z" transform="translate(1895 87)" fill="#fbf7ed"/>
+      <path id="Rectangle_637" data-name="Rectangle 637" d="M9,0H25a0,0,0,0,1,0,0V54a0,0,0,0,1,0,0H16A16,16,0,0,1,0,38V9A9,9,0,0,1,9,0Z" transform="translate(1895 507)" fill="#fbf7ed"/>
+    </g>
+  </g>
+</svg>
