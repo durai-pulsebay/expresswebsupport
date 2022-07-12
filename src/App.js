@@ -9,7 +9,8 @@ import {
 import loadable from '@loadable/component';
 const HomePage = loadable(() => import('../src/pages/home/home'));
 const ConatctPage = loadable(() => import('../src/pages/contact/contact'));
-const WhatCanWeFixPage = loadable(() => import('../src/pages/what-can-we-fix/what-can-we-fix'));
+const HowCanWeHelpPage = loadable(() => import('../src/pages/how-can-we-help/how-can-we-help'));
+const PrivacyPolicyPage = loadable(() => import('../src/pages/privacy-policy/privacy-policy'));
 const Footer = loadable(() => import('../src/components/footer/footer'));
 const URL = "https://ipapi.co/json";
 
@@ -38,20 +39,26 @@ export default function App() {
           <Route path="/" exact>
             <HomePage />
           </Route>
-          <Route path="/what-can-we-fix">
-            <WhatCanWeFixPage />
+          <Route path="/how-can-we-help">
+            <HowCanWeHelpPage />
           </Route>
           <Route path="/contact">
             <ConatctPage />
           </Route>
+          <Route path="/privacy-policy">
+            <PrivacyPolicyPage />
+          </Route>
           <Route path="/:country" exact>
             <HomePage />
           </Route>
-          <Route path="/:country/what-can-we-fix" >
-            <WhatCanWeFixPage />
+          <Route path="/:country/how-can-we-help" >
+            <HowCanWeHelpPage />
           </Route>
           <Route path="/:country/contact">
             <ConatctPage />
+          </Route>
+          <Route path="/:country/privacy-policy">
+            <PrivacyPolicyPage />
           </Route>
         </Switch>
       </Router>

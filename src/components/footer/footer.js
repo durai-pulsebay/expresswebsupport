@@ -13,6 +13,7 @@ const Footer = () => {
                         <li class="pr-5"><a class="px-3" href="/">Home</a></li>
                         <li class="pr-5"><a class="px-3" href="what-can-we-fix">What can we fix</a></li>
                         <li class="pr-5"><a class="px-3" href="contact">Contact</a></li>
+                        <li class="pr-5"><a class="px-3" href="privacy-policy">Privacy Policy</a></li>
                     </ul>
                 </div>
                 <div class="flex justify-center py-3">

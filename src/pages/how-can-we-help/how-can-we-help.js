@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from "../../components/navbar/navbar";
 import { useParams } from "react-router-dom";
 
-const WhatCanWeFixPage = () => {
+const HowCanWeHelpPage = () => {
     let params = useParams();
     console.log('www', params)
     return (
@@ -142,4 +142,4 @@ const WhatCanWeFixPage = () => {
     );
 }
 
-export default WhatCanWeFixPage;
+export default HowCanWeHelpPage;
