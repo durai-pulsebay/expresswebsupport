@@ -4,12 +4,10 @@ import { useParams } from "react-router-dom";
 
 const HowCanWeHelpPage = () => {
     let params = useParams();
-    console.log('www', params)
     return (
         <div>
             <section class="bg-sandel-clr">
                 <Navbar />
-
                 <div class="container mx-auto">
                     <div class="flex flex-wrap text-center md:text-left items-center justify-center md:justify-between my-20 ">
                         <div class=" sm:w-1/2 md:pr-20 ">

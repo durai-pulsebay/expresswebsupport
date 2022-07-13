@@ -1,10 +1,21 @@
 import React from "react";
 import Navbar from "../../components/navbar/navbar";
 import { useParams } from "react-router-dom";
+import Helmet from 'react-helmet';
 
 const Home = () => {
-    let params = useParams();
+    let { country } = useParams();
+    let country_code = localStorage.getItem('country_code');
+    if (country != country_code) {
+        window.location.href = '/' + country_code
+    }
     return (<div>
+        <>
+            <Helmet>
+                {/* <title>Fastest Shopify Support In {window.countryName}</title> */}
+                {/* <meta name='description' content={`Fastest Shopify Support In ${window.origin}`} /> */}
+            </Helmet>
+        </>
         <section class="lg:bg-hero-pattern bg-cover bg-no-repeat bg-center">
             <Navbar />
             <div class="container mx-auto">

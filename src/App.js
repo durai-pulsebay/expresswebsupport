@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import {
   BrowserRouter as Router,
   Switch,
-  Route
+  Route,
+  useHistory
 } from "react-router-dom";
 
 
@@ -16,24 +17,24 @@ const Footer = loadable(() => import('../src/components/footer/footer'));
 const URL = "https://ipapi.co/json";
 
 export default function App() {
-  // const [info, setInfo] = useState({ ip: "" });
+  const history = useHistory();
   const [countryCode, setCountryCode] = useState(null);
   const [countryName, setCountryName] = useState(null);
-  // const [currency, setCurrency] = useState(null);
-  window.countryName = countryName;
-  window.countryCode = countryCode;
-
   useEffect(() => {
+    if (localStorage.getItem('country_code') == null) { }
     fetch(URL, { method: "get" })
       .then((response) => response.json())
       .then((data) => {
+        window.countryName = data && data.country_name;
+        window.countryCode = data && data.country_code.toLowerCase();
+        localStorage.setItem('country_code', data && data.country_code.toLowerCase());
         setCountryCode(data && data.country_code.toLowerCase());
         setCountryName(data && data.country_name);
-        // setCurrency(data && data.currency);
       });
   }, []);
 
-  // console.log("countryName", countryName);
+
+  // window.location.href = '/' + countryCode;
   return (
     <>
       <Router>
