@@ -14,6 +14,7 @@ const Footer = () => {
                         <li class="pr-5"><a class="px-3" href={`${window.origin}/${window.countryCode}/how-can-we-help`}>How can we help</a></li>
                         <li class="pr-5"><a class="px-3" href={`${window.origin}/${window.countryCode}/contact`}>Contact</a></li>
                         <li class="pr-5"><a class="px-3" href={`${window.origin}/${window.countryCode}/privacy-policy`}>Privacy Policy</a></li>
+                        <li class="pr-5"><a class="px-3" href={`${window.origin}/${window.countryCode}/terms-and-conditions`}>Terms and Conditions</a></li>
                     </ul>
                 </div>
                 <div class="flex justify-center py-3">

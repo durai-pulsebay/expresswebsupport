@@ -11,6 +11,7 @@ const HomePage = loadable(() => import('../src/pages/home/home'));
 const ConatctPage = loadable(() => import('../src/pages/contact/contact'));
 const HowCanWeHelpPage = loadable(() => import('../src/pages/how-can-we-help/how-can-we-help'));
 const PrivacyPolicyPage = loadable(() => import('../src/pages/privacy-policy/privacy-policy'));
+const TermsAndConditionsPage = loadable(() => import('../src/pages/terms-and-conditions/terms-and-conditions'));
 const Footer = loadable(() => import('../src/components/footer/footer'));
 const URL = "https://ipapi.co/json";
 
@@ -18,7 +19,7 @@ export default function App() {
   // const [info, setInfo] = useState({ ip: "" });
   const [countryCode, setCountryCode] = useState(null);
   const [countryName, setCountryName] = useState(null);
-  const [currency, setCurrency] = useState(null);
+  // const [currency, setCurrency] = useState(null);
   window.countryName = countryName;
   window.countryCode = countryCode;
 
@@ -28,7 +29,7 @@ export default function App() {
       .then((data) => {
         setCountryCode(data && data.country_code.toLowerCase());
         setCountryName(data && data.country_name);
-        setCurrency(data && data.currency);
+        // setCurrency(data && data.currency);
       });
   }, []);
 
@@ -49,6 +50,9 @@ export default function App() {
           <Route path="/privacy-policy">
             <PrivacyPolicyPage />
           </Route>
+          <Route path="/terms-and-conditions">
+            <TermsAndConditionsPage />
+          </Route>
           <Route path="/:country" exact>
             <HomePage />
           </Route>
@@ -60,6 +64,9 @@ export default function App() {
           </Route>
           <Route path="/:country/privacy-policy">
             <PrivacyPolicyPage />
+          </Route>
+          <Route path="/:country/terms-and-conditions">
+            <TermsAndConditionsPage />
           </Route>
         </Switch>
       </Router>
