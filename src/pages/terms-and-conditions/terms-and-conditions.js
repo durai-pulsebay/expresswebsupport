@@ -11,7 +11,7 @@ const Contact = () => {
                     <div class="flex flex-wrap items-center justify-around w-full">
                         <div class="p-5 md:pr-20">
                             <h4 class="font-semibold" id="toc_14">TABLE OF CONTENTS</h4><br />
-                            <ol class="list-inside list-decimal pb-8">
+                            <ol class="list-inside list-decimal pb-8 font-semibold text-blue-900">
                                 <li><Link to="toc_1" spy={true} smooth={true}>AGREEMENT TO TERMS</Link></li>
                                 <li><Link to="toc_2" spy={true} smooth={true}>INTELLECTUAL PROPERTY RIGHTS</Link></li>
                                 <li><Link to="toc_3" spy={true} smooth={true}>USER REPRESENTATIONS</Link></li>

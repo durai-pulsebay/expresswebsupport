@@ -15,6 +15,7 @@ const Footer = () => {
                         <li class="pr-5"><a class="px-3" href={`${window.origin}/${window.countryCode}/contact`}>Contact</a></li>
                         <li class="pr-5"><a class="px-3" href={`${window.origin}/${window.countryCode}/privacy-policy`}>Privacy Policy</a></li>
                         <li class="pr-5"><a class="px-3" href={`${window.origin}/${window.countryCode}/terms-and-conditions`}>Terms and Conditions</a></li>
+                        <li class="pr-5"><a class="px-3" href={`${window.origin}/${window.countryCode}/refund-policy`}>Refund Policy</a></li>
                     </ul>
                 </div>
                 <div class="flex justify-center py-3">
@@ -25,8 +26,8 @@ const Footer = () => {
             </div>
             <div class="container text-center py-3 text-[#ffffff] border-t border-[#FBF7ED] ">
                 <div>
-                    <p>Copyrights 2022 all rights reserved <span class="font-medium text-[#91D63F]">Express Shopify
-                        Support</span></p>
+                    <p>Copyrights 2022 all rights reserved <span class="font-medium text-[#91D63F]"><a href="https://expressshopifysupport.com/">Express Shopify
+                        Support</a></span></p>
                 </div>
 
             </div>

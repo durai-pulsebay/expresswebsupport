@@ -35,8 +35,8 @@ const Contact = () => {
                             <p class="pb-8">Want to learn more about what __________ does with any information we collect? Click here to review the notice in full.</p>
 
                             <h4 class="pb-3 font-semibold">TABLE OF CONTENTS</h4>
-                            <ol class="list-inside list-decimal pb-8">
-                                <li><Link to="toc_1" spy={true} smooth={true}>WHAT INFORMATION DO WE COLLECT?</Link></li>
+                            <ol class="list-inside list-decimal pb-8 font-semibold text-blue-900">
+                                <li class=""><Link to="toc_1" spy={true} smooth={true}>WHAT INFORMATION DO WE COLLECT?</Link></li>
                                 <li><Link to="toc_2" spy={true} smooth={true}>HOW DO WE PROCESS YOUR INFORMATION?</Link></li>
                                 <li><Link to="toc_3" spy={true} smooth={true}>WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?</Link></li>
                                 <li><Link to="toc_4" spy={true} smooth={true}>DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?</Link></li>
