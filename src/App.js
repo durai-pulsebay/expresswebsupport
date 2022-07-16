@@ -14,6 +14,7 @@ const HowCanWeHelpPage = loadable(() => import('../src/pages/how-can-we-help/how
 const PrivacyPolicyPage = loadable(() => import('../src/pages/privacy-policy/privacy-policy'));
 const TermsAndConditionsPage = loadable(() => import('../src/pages/terms-and-conditions/terms-and-conditions'));
 const RefundPolicyPage = loadable(() => import('../src/pages/refund-policy/refund-policy'));
+const SuccessfullPaymentPage = loadable(() => import('../src/pages/successful-payment/successful-payment'));
 const Footer = loadable(() => import('../src/components/footer/footer'));
 const URL = "https://ipapi.co/json";
 
@@ -58,6 +59,9 @@ export default function App() {
           <Route path="/refund-policy">
             <RefundPolicyPage />
           </Route>
+          <Route path="/successful-payment">
+            <SuccessfullPaymentPage />
+          </Route>
           <Route path="/:country" exact>
             <HomePage />
           </Route>
@@ -75,6 +79,9 @@ export default function App() {
           </Route>
           <Route path="/:country/refund-policy">
             <RefundPolicyPage />
+          </Route>
+          <Route path="/:country/successful-payment">
+            <SuccessfullPaymentPage />
           </Route>
         </Switch>
       </Router>
