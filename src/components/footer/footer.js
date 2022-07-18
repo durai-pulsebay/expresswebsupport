@@ -8,7 +8,7 @@ const Footer = () => {
           <a href="/">
             <img
               class="mx-auto py-3 w-[80%]"
-              src="assets/images/white-logo.svg"
+              src={`${window.origin}/assets/images/white-logo.svg`}
               alt=""
             />
           </a>
