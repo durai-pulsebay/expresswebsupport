@@ -22,13 +22,16 @@ const Refund = () => {
               </h2>
             </div>
             <div class="p-5">
-              <h3 class="text-2xl pt-2 pb-2 text-center font-semibold text-[#59ACA7]">
+              <h3 class="text-2xl pt-2 pb-2 text-center  font-bold text-[#59ACA7]">
                 What Happened Next
               </h3>
               <div class="flex flex-wrap">
-                <div class="sm:w-[33%] p-5">
-                  <h4 class="text-[#144645] font-bold text-xl	 sm:text-1xl">
-                    <span>1</span>Take a Ticket
+                <div class="md:w-[33%] p-5">
+                  <h4 class="text-[#144645] font-bold text-xl	py-3 sm:text-1xl">
+                    <span class="bg-pale-green px-3 py-1 mr-3 text-white rounded-3xl">
+                      1
+                    </span>
+                    Take a Ticket
                   </h4>
                   <p>
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
@@ -36,9 +39,12 @@ const Refund = () => {
                     aliquyam erat, sed diam voluptua. At
                   </p>
                 </div>
-                <div class="sm:w-[33%] p-5">
-                  <h4 class="text-[#144645] font-bold text-xl	 sm:text-1xl">
-                    <span>2</span>Take a Ticket
+                <div class="md:w-[33%] p-5">
+                  <h4 class="text-[#144645] font-bold text-xl	py-3 sm:text-1xl">
+                    <span class="bg-pale-green px-3 py-1 mr-3 text-white rounded-3xl">
+                      2
+                    </span>
+                    Take a Ticket
                   </h4>
                   <p>
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
@@ -46,9 +52,12 @@ const Refund = () => {
                     aliquyam erat, sed diam voluptua. At
                   </p>
                 </div>
-                <div class="sm:w-[33%] p-5">
-                  <h4 class="text-[#144645] font-bold text-xl	 sm:text-1xl">
-                    <span>3</span>Take a Ticket
+                <div class="md:w-[33%] p-5">
+                  <h4 class="text-[#144645] font-bold text-xl	py-3 sm:text-1xl">
+                    <span class="bg-pale-green px-3 py-1 mr-3 text-white rounded-3xl">
+                      3
+                    </span>
+                    Take a Ticket
                   </h4>
                   <p>
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
