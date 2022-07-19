@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="264" height="272" viewBox="0 0 264 272">
+  <defs>
+    <filter id="Rectangle_764" x="66" y="45" width="132" height="189" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_101" x="88" y="73" width="88" height="88" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="_" x="110" y="85" width="44" height="65" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_765" x="88" y="155" width="90" height="24" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_766" x="88" y="170" width="90" height="24" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_767" x="88" y="185" width="90" height="24" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="get_a_quote" data-name="get a quote" transform="translate(-895 -619)">
+    <g id="Ellipse_98" data-name="Ellipse 98" transform="translate(895 619)" fill="#91d63f" stroke="#707070" stroke-width="1" opacity="0.15">
+      <ellipse cx="132" cy="136" rx="132" ry="136" stroke="none"/>
+      <ellipse cx="132" cy="136" rx="131.5" ry="135.5" fill="none"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 895, 619)" filter="url(#Rectangle_764)">
+      <g id="Rectangle_764-2" data-name="Rectangle 764" transform="translate(75 51)" fill="none" stroke="#91d63f" stroke-width="7">
+        <rect width="114" height="171" rx="6" stroke="none"/>
+        <rect x="3.5" y="3.5" width="107" height="164" rx="2.5" fill="none"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 895, 619)" filter="url(#Ellipse_101)">
+      <g id="Ellipse_101-2" data-name="Ellipse 101" transform="translate(97 79)" fill="none" stroke="#91d63f" stroke-width="5">
+        <circle cx="35" cy="35" r="35" stroke="none"/>
+        <circle cx="35" cy="35" r="32.5" fill="none"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 895, 619)" filter="url(#_)">
+      <text id="_2" data-name="$" transform="translate(119 126)" fill="#91d63f" font-size="47" font-family="MyriadHebrew-Bold, Myriad Hebrew" font-weight="700" letter-spacing="-0.054em"><tspan x="0" y="0">$</tspan></text>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 895, 619)" filter="url(#Rectangle_765)">
+      <rect id="Rectangle_765-2" data-name="Rectangle 765" width="72" height="6" rx="3" transform="translate(97 161)" fill="#8fd23e"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 895, 619)" filter="url(#Rectangle_766)">
+      <rect id="Rectangle_766-2" data-name="Rectangle 766" width="72" height="6" rx="3" transform="translate(97 176)" fill="#8fd23e"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 895, 619)" filter="url(#Rectangle_767)">
+      <rect id="Rectangle_767-2" data-name="Rectangle 767" width="72" height="6" rx="3" transform="translate(97 191)" fill="#8fd23e"/>
+    </g>
+  </g>
+</svg>

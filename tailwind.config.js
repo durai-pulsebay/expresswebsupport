@@ -1,7 +1,5 @@
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     colors: {
       "dark-green": "#144645",
@@ -16,8 +14,8 @@ module.exports = {
         poppins: ["Poppins"],
       },
       backgroundImage: {
-        "hero-pattern": "url('/public/assets/images/hero-svg.svg')",
-        "hero-why-us": "url('/public/assets/images/bg-home.svg')"
+        "hero-pattern": "url('/public/assets/images/hero-bg.svg')",
+        "hero-why-us": "url('/public/assets/images/bg-home.svg')",
       },
       spacing: {
         "50px": "50px",
@@ -26,11 +24,11 @@ module.exports = {
         center: true,
         padding: "1.5rem",
         screens: {
-          sm: '576px',
-          md: '768px',
-          lg: '992px',
-          xl: '1200px',
-          '2xl': '1360px',
+          sm: "576px",
+          md: "768px",
+          lg: "992px",
+          xl: "1200px",
+          "2xl": "1360px",
         },
       },
     },
