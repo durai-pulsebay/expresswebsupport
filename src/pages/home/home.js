@@ -47,21 +47,23 @@ const Home = () => {
                   src={`${window.origin}/assets/images/help-us.svg`}
                   className="w-[70%]"
                 />
-                <h3 className="text-xl font-medium">Help Us Understand</h3>
+                <h3 className="text-xl py-2 font-medium text-[#144645]">
+                  Help Us Understand
+                </h3>
               </div>
               <div className="lg:w-[23%] py-3 flex flex-col items-center justify-center">
                 <img
                   src={`${window.origin}/assets/images/get-a-quote.svg`}
                   className="w-[70%]"
                 />
-                <h3 className="text-xl font-medium">Get A Quote</h3>
+                <h3 className="text-xl py-2 font-medium">Get A Quote</h3>
               </div>
               <div className="lg:w-[23%] py-3 flex flex-col items-center justify-center">
                 <img
                   src={`${window.origin}/assets/images/coding.svg`}
                   className="w-[70%]"
                 />
-                <h3 className="text-xl font-medium">
+                <h3 className="text-xl py-2 font-medium">
                   Relax While We Take Care Of It
                 </h3>
               </div>
