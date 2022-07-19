@@ -23,7 +23,7 @@ const Refund = () => {
             </div>
             <div class="p-5">
               <h3 class="text-2xl pt-2 pb-2 text-center  font-bold text-[#59ACA7]">
-                What Happened Next?
+                What happens next?
               </h3>
               <div class="flex flex-wrap text-center">
                 <div class=" p-5">
