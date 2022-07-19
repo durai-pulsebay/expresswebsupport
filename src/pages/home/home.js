@@ -66,19 +66,13 @@ const Home = () => {
                 </h3>
               </div>
             </div>
-            {/* <img
-              class="mx-auto py-5"
-              src={`${window.origin}/assets/images/hero-bnr-1.png`}
-              width="60%"
-              alt=""
-            /> */}
           </div>
         </div>
       </section>
       <section class="bg-dark-green py-[50px] px-4">
         <div class="container mx-auto flex flex-wrap justify-center">
-          <div class="sm:w-1/2 sm:px-10">
-            <div class=" sm:w-3/4 bg-sandel-clr  p-10 rounded-xl ">
+          <div class="lg:w-1/2 sm:px-10">
+            <div class=" lg:w-3/4 bg-sandel-clr  p-10 rounded-xl ">
               <img
                 class="py-5"
                 src={`${window.origin}/assets/images/shield.png`}
@@ -106,8 +100,8 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div class="sm:w-1/2 text-center">
-            <div class="sm:p-10 ">
+          <div class="lg:w-1/2 text-center">
+            <div class="lg:p-10 ">
               <img
                 class="p-5 md:w-[70%]"
                 src={`${window.origin}/assets/images/shopify-logo.svg`}
@@ -129,7 +123,7 @@ const Home = () => {
       </section>
       <section class="lg:bg-hero-why-us bg-cover bg-no-repeat bg-right ">
         <div class="container mx-auto text-center md:text-left flex flex-wrap justify-center items-center md:justify-between">
-          <div class="sm:w-full py-10">
+          <div class="lg:w-full py-10">
             <div>
               <h2 class="text-center font-semibold text-3xl text-[#144645]">
                 Why Choose Us?
@@ -140,14 +134,14 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <div class="sm:w-1/2 text-right py-5">
+          <div class="lg:w-1/2 text-right py-5">
             <img
               class="w-[80%] mx-auto"
               src={`${window.origin}/assets/images/robo-ask.svg`}
               alt=""
             />
           </div>
-          <div class="sm:w-1/2 py-5">
+          <div class="lg:w-1/2 py-5">
             <h2 class="font-semibold text-2xl text-[#144645]">
               We assist with a wide range of customizations
             </h2>
@@ -165,8 +159,7 @@ const Home = () => {
               Customize Now
             </a>
           </div>
-
-          <div class="sm:w-1/2 py-5 md:pr-10  md:text-right">
+          <div class="lg:w-1/2 py-5 md:pr-10  md:text-right">
             <h2 class="font-semibold text-2xl text-[#144645]">
               Get an instant quote
             </h2>
@@ -184,7 +177,7 @@ const Home = () => {
               Let's Chat
             </a>
           </div>
-          <div class="sm:w-1/2 py-5">
+          <div class="lg:w-1/2 py-5">
             <img
               class="w-[80%] mx-auto"
               src={`${window.origin}/assets/images/customer-ask.svg`}
