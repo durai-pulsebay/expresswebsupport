@@ -10,8 +10,8 @@ const HowCanWeHelpPage = () => {
         <Navbar />
         <div class="container mx-auto">
           <div class="flex flex-wrap text-center md:text-left items-center justify-center md:justify-between my-20 ">
-            <div class=" sm:w-1/2 md:pr-20 ">
-              <h1 class="text-[#144645] font-bold text-3xl	 sm:text-4xl  leading-snug ">
+            <div class=" lg:w-1/2 md:pr-20 ">
+              <h1 class="text-[#144645] font-bold text-3xl	 lg:text-4xl  leading-snug ">
                 Need help with your Shopify store? <br />
                 We will fix it{" "}
               </h1>
@@ -24,7 +24,7 @@ const HowCanWeHelpPage = () => {
                 Fix my Issue
               </a>
             </div>
-            <div class=" sm:w-1/2 pt-10 md:pt-0">
+            <div class=" lg:w-1/2 pt-10 md:pt-0">
               <img
                 class="md:p-5 text-right"
                 src={`${window.origin}/assets/images/hi-robo.svg`}
@@ -42,7 +42,7 @@ const HowCanWeHelpPage = () => {
               How we can help you!
             </h2>
             <div class="flex flex-wrap ">
-              <div class="w-full sm:w-[20%] p-3 ">
+              <div class="w-full lg:w-[20%] p-3 ">
                 <div class=" flex flex-wrap items-center text-[#144645] font-medium  p-3  rounded shadow bg-[#ffff]">
                   <img
                     class="pr-2"
@@ -53,7 +53,7 @@ const HowCanWeHelpPage = () => {
                   <p class="text-lg font-semibold">Header </p>
                 </div>
               </div>
-              <div class="w-full sm:w-[30%] p-3 ">
+              <div class="w-full lg:w-[30%] p-3 ">
                 <div class=" flex flex-wrap items-center text-[#144645] font-medium  p-3  rounded shadow bg-[#ffff]">
                   <img
                     class="pr-2"
@@ -64,7 +64,7 @@ const HowCanWeHelpPage = () => {
                   <p class="text-lg font-semibold">Code Implementation </p>
                 </div>
               </div>
-              <div class="w-full sm:w-[28%] p-3 ">
+              <div class="w-full lg:w-[28%] p-3 ">
                 <div class=" flex flex-wrap items-center text-[#144645] font-medium  p-3  rounded shadow bg-[#ffff]">
                   <img
                     class="pr-2"
@@ -75,7 +75,7 @@ const HowCanWeHelpPage = () => {
                   <p class="text-lg font-semibold">Cart & Check out </p>
                 </div>
               </div>
-              <div class="w-full sm:w-[22%] p-3 ">
+              <div class="w-full lg:w-[22%] p-3 ">
                 <div class=" flex flex-wrap items-center text-[#144645] font-medium  p-3  rounded shadow bg-[#ffff]">
                   <img
                     class="pr-2"
@@ -86,7 +86,7 @@ const HowCanWeHelpPage = () => {
                   <p class="text-lg font-semibold">Menu </p>
                 </div>
               </div>
-              <div class="w-full sm:w-[28%] p-3 ">
+              <div class="w-full lg:w-[28%] p-3 ">
                 <div class=" flex flex-wrap items-center text-[#144645] font-medium  p-3  rounded shadow bg-[#ffff]">
                   <img
                     class="pr-2"
@@ -97,7 +97,7 @@ const HowCanWeHelpPage = () => {
                   <p class="text-lg font-semibold">Integration/Feed </p>
                 </div>
               </div>
-              <div class="w-full sm:w-[22%] p-3 ">
+              <div class="w-full lg:w-[22%] p-3 ">
                 <div class=" flex flex-wrap items-center text-[#144645] font-medium  p-3  rounded shadow bg-[#ffff]">
                   <img
                     class="pr-2"
@@ -108,7 +108,7 @@ const HowCanWeHelpPage = () => {
                   <p class="text-lg font-semibold">Integration </p>
                 </div>
               </div>
-              <div class="w-full sm:w-[25%] p-3 ">
+              <div class="w-full lg:w-[25%] p-3 ">
                 <div class=" flex flex-wrap items-center text-[#144645] font-medium  p-3  rounded shadow bg-[#ffff]">
                   <img
                     class="pr-2"
@@ -119,7 +119,7 @@ const HowCanWeHelpPage = () => {
                   <p class="text-lg font-semibold">Banner Design </p>
                 </div>
               </div>
-              <div class="w-full sm:w-[25%] p-3 ">
+              <div class="w-full lg:w-[25%] p-3 ">
                 <div class=" flex flex-wrap items-center text-[#144645] font-medium  p-3  rounded shadow bg-[#ffff]">
                   <img
                     class="pr-2"
@@ -130,7 +130,7 @@ const HowCanWeHelpPage = () => {
                   <p class="text-lg font-semibold">Marketing </p>
                 </div>
               </div>
-              <div class="w-full sm:w-[30%] p-3 ">
+              <div class="w-full lg:w-[30%] p-3 ">
                 <div class=" flex flex-wrap items-center text-[#144645] font-medium  p-3  rounded shadow bg-[#ffff]">
                   <img
                     class="pr-2"
@@ -141,7 +141,7 @@ const HowCanWeHelpPage = () => {
                   <p class="text-lg font-semibold">Theme Customization </p>
                 </div>
               </div>
-              <div class="w-full sm:w-[25%] p-3 ">
+              <div class="w-full lg:w-[25%] p-3 ">
                 <div class=" flex flex-wrap items-center text-[#144645] font-medium  p-3  rounded shadow bg-[#ffff]">
                   <img
                     class="pr-2"
@@ -152,7 +152,7 @@ const HowCanWeHelpPage = () => {
                   <p class="text-lg font-semibold">Product Page</p>
                 </div>
               </div>
-              <div class="w-full sm:w-[20%] p-3 ">
+              <div class="w-full lg:w-[20%] p-3 ">
                 <div class=" flex flex-wrap items-center text-[#144645] font-medium  p-3  rounded shadow bg-[#ffff]">
                   <img
                     class="pr-2"
@@ -163,7 +163,7 @@ const HowCanWeHelpPage = () => {
                   <p class="text-lg font-semibold">Footer </p>
                 </div>
               </div>
-              <div class="w-full sm:w-[25%] p-3 ">
+              <div class="w-full lg:w-[25%] p-3 ">
                 <div class=" flex flex-wrap items-center text-[#144645] font-medium  p-3  rounded shadow bg-[#ffff]">
                   <img
                     class="pr-2"
@@ -187,14 +187,14 @@ const HowCanWeHelpPage = () => {
               </span>
             </h2>
           </div>
-          <div class="py-10 sm:flex sm:flex-wrap ">
+          <div class="py-10 lg:flex lg:flex-wrap ">
             <img
-              class="sm:w-[40%] p-4"
+              class="lg:w-[40%] p-4"
               src={`${window.origin}/assets/images/customer-ask.svg`}
               alt=""
             />
-            <div class=" sm:w-[58%] flex flex-wrap ">
-              <div class="m-5  sm:w-[43%]">
+            <div class=" lg:w-[58%] flex flex-wrap ">
+              <div class="m-5  lg:w-[43%]">
                 <div class="flex flex-wrap items-center">
                   <img
                     src={`${window.origin}/assets/images/Line 4.svg`}
@@ -214,7 +214,7 @@ const HowCanWeHelpPage = () => {
                   gateway once you sign off on the quote.
                 </p>
               </div>
-              <div class="m-5 sm:w-[43%]">
+              <div class="m-5 lg:w-[43%]">
                 <div class="flex items-center">
                   <img
                     src={`${window.origin}/assets/images/Line 4.svg`}
@@ -226,7 +226,7 @@ const HowCanWeHelpPage = () => {
                 <h2 class="text-xl font-semibold text text-[#144645] ">
                   We open a ticket
                 </h2>
-                <p class="text-sm">
+                <p class="text-lg">
                   Once your payment is confirmed, we open a ticket for you. You
                   will receive an email with all the details of your request,
                   and we will address it to one of our experts who specializes
@@ -234,7 +234,7 @@ const HowCanWeHelpPage = () => {
                   information, we will contact you via email.
                 </p>
               </div>
-              <div class="m-5 sm:w-[60%] ">
+              <div class="m-5 lg:w-[60%] ">
                 <div class="flex items-center">
                   <img
                     src={`${window.origin}/assets/images/Line 4.svg`}
