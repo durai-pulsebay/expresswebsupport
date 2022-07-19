@@ -19,7 +19,7 @@ const Footer = loadable(() => import('../src/components/footer/footer'));
 const URL = "https://ipapi.co/json";
 
 export default function App() {
-  const history = useHistory();
+  // const history = useHistory();
   const [countryCode, setCountryCode] = useState(null);
   const [countryName, setCountryName] = useState(null);
   useEffect(() => {
@@ -32,6 +32,17 @@ export default function App() {
         localStorage.setItem('country_code', data && data.country_code.toLowerCase());
         setCountryCode(data && data.country_code.toLowerCase());
         setCountryName(data && data.country_name);
+        const locationPath = window.location.pathname;
+        const locationPathArray = locationPath.split('/');
+        let newLocation = window.location.href;
+        if(locationPathArray?.length > 1 && locationPathArray[1]?.length === 2) {
+          if( locationPathArray[1] != window.countryCode) {
+            newLocation = '/' + window.countryCode + locationPath?.substring(3)
+          }
+        } else {
+          newLocation = '/' + window.countryCode + locationPath
+        }
+        window.history.pushState({}, '', newLocation);
       });
   }, []);
 
