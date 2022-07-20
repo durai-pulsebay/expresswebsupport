@@ -12,8 +12,8 @@ const HowCanWeHelpPage = () => {
           <div className="flex flex-wrap text-center md:text-left items-center justify-center md:justify-between my-20 ">
             <div className=" lg:w-1/2 md:pr-20 ">
               <h1 className="text-[#144645] font-bold text-3xl	 lg:text-4xl  leading-snug ">
-                Need help with your Shopify store? <br />
-                We will fix it{" "}
+                Need Help With Your Shopify Store? <br />
+                We Will Fix It{" "}
               </h1>
               <p className="my-5">
                 Our team of experts are here to help you. Whether you need a
@@ -32,35 +32,11 @@ const HowCanWeHelpPage = () => {
               />
             </div>
           </div>
-          {/* <div className="my-5">
-=======
-    // let params = useParams();
-    return (
-        <div>
-            <section className="bg-sandel-clr">
-                <Navbar />
-                <div className="container mx-auto">
-                    <div className="flex flex-wrap text-center md:text-left items-center justify-center md:justify-between my-20 ">
-                        <div className=" sm:w-1/2 md:pr-20 ">
-                            <h1 className="text-[#144645] font-bold text-3xl sm:text-4xl leading-snug ">
-                                Need help with your Shopify store? <br />We will fix it </h1>
-                            <p className="my-5">Our team of experts are here to help you. Whether you need a little help or extensive support, Express Shopify Support is your ultimate solution.</p>
-                            <a className="bg-[#91D63F] text-center font-medium text-[#fff] min-w-[100px] py-2 px-5  my-auto rounded">Fix my
-                                Issue</a>
-                        </div>
-                        <div className=" sm:w-1/2 pt-10 md:pt-0">
-                            <img className="md:p-5 text-right" src={`${window.origin}/assets/images/hi-robo.svg`} alt="" />
-                        </div>
-                    </div>
-                    <div className="my-5">
->>>>>>> 878a771ac58392ae64dd2e59798c11d48728cc7a
-                        <img src={`${window.origin}/assets/images/logo.svg`} alt="" />
-                    </div> */}
         </div>
         <section className="container mx-auto bg-[#59ACA7] rounded-lg">
           <div className="py-5">
-            <h2 className="text-center p-5 font-semibold text-2xl text-[#ffffff] ">
-              How we can help you!
+            <h2 className="text-center p-5 font-bold text-2xl text-[#ffffff] ">
+              How We Can Help You!
             </h2>
             <div className="flex flex-wrap ">
               <div className="w-full lg:w-[20%] p-3 ">
@@ -201,10 +177,10 @@ const HowCanWeHelpPage = () => {
         <section className="container mx-auto">
           <div>
             <h2 className="py-10 font-semibold text-4xl text-[#144645] ">
-              How we deliver{" "}
+              How We Deliver{" "}
               <span className="text-[#59ACA7] ">
-                great service with
-                <br /> outstanding value
+                Great Service With
+                <br /> Outstanding Value
               </span>
             </h2>
           </div>
@@ -214,20 +190,22 @@ const HowCanWeHelpPage = () => {
               src={`${window.origin}/assets/images/customer-ask.svg`}
               alt=""
             />
-            <div className=" lg:w-[58%] flex flex-wrap ">
-              <div className="m-5  lg:w-[43%]">
+            <div className=" lg:w-[60%] lg:flex lg:flex-wrap ">
+              <div className="p-5 w-[100%] lg:w-[50%]">
                 <div className="flex flex-wrap items-center">
                   <img
                     src={`${window.origin}/assets/images/Line 4.svg`}
                     width="100px"
                     alt=""
                   />
-                  <h2 className="text-4xl font-semibold text-[#59ACA7]">1</h2>
+                  <h2 className="text-4xl p-3 font-semibold text-[#59ACA7]">
+                    1
+                  </h2>
                 </div>
                 <h2 className="text-xl font-semibold text text-[#144645] ">
-                  Get a quote
+                  Get A Quote
                 </h2>
-                <p className="text-sm">
+                <p className="text-md">
                   Our team will figure out what you want from your store, asking
                   questions until they have all the information they need to
                   give you an accurate price. You will be able to pay for the
@@ -235,19 +213,21 @@ const HowCanWeHelpPage = () => {
                   gateway once you sign off on the quote.
                 </p>
               </div>
-              <div className="m-5 lg:w-[43%]">
+              <div className="p-5 w-[100%] lg:w-[50%]">
                 <div className="flex items-center">
                   <img
                     src={`${window.origin}/assets/images/Line 4.svg`}
                     width="100px"
                     alt=""
                   />
-                  <h2 className="text-4xl font-semibold text-[#59ACA7]">2</h2>
+                  <h2 className="text-4xl p-3 font-semibold text-[#59ACA7]">
+                    2
+                  </h2>
                 </div>
                 <h2 className="text-xl font-semibold text text-[#144645] ">
-                  We open a ticket
+                  We Open A Ticket
                 </h2>
-                <p className="text-lg">
+                <p className="text-md">
                   Once your payment is confirmed, we open a ticket for you. You
                   will receive an email with all the details of your request,
                   and we will address it to one of our experts who specializes
@@ -255,19 +235,21 @@ const HowCanWeHelpPage = () => {
                   information, we will contact you via email.
                 </p>
               </div>
-              <div className="m-5 lg:w-[60%] ">
+              <div className="p-5 w-[100%] lg:w-[60%] ">
                 <div className="flex items-center">
                   <img
                     src={`${window.origin}/assets/images/Line 4.svg`}
                     width="100px"
                     alt=""
                   />
-                  <h2 className="text-4xl font-semibold text-[#59ACA7]">3</h2>
+                  <h2 className="text-4xl p-3 font-semibold text-[#59ACA7]">
+                    3
+                  </h2>
                 </div>
                 <h2 className="text-xl font-semibold text text-[#144645] ">
-                  We fix it
+                  We Fix It
                 </h2>
-                <p className="text-sm">
+                <p className="text-md ">
                   We’ll guarantee your satisfaction with our work. If you don’t
                   like the job, we’ll re-do it without charging anything more
                   than what we promised. As for the timeframe for completion, it
