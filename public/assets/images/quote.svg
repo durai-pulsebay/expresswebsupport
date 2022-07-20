@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="168.463" height="173.568" viewBox="0 0 168.463 173.568">
+  <g id="quote" transform="translate(17696.66 11403.116)">
+    <ellipse id="Ellipse_109" data-name="Ellipse 109" cx="84.231" cy="86.784" rx="84.231" ry="86.784" transform="translate(-17696.66 -11403.116)" fill="#fbf7ed"/>
+    <ellipse id="Ellipse_108" data-name="Ellipse 108" cx="84.231" cy="86.784" rx="84.231" ry="86.784" transform="translate(-17696.66 -11403.116)" fill="#7fc032" opacity="0.27"/>
+    <g id="Rectangle_771" data-name="Rectangle 771" transform="translate(-17648.363 -11369.363)" fill="none" stroke="#7fc032" stroke-width="7">
+      <rect width="75.448" height="113.171" rx="6" stroke="none"/>
+      <rect x="3.5" y="3.5" width="68.448" height="106.171" rx="2.5" fill="none"/>
+    </g>
+    <g id="Ellipse_106" data-name="Ellipse 106" transform="translate(-17633.803 -11350.832)" fill="none" stroke="#7fc032" stroke-width="5">
+      <circle cx="23.164" cy="23.164" r="23.164" stroke="none"/>
+      <circle cx="23.164" cy="23.164" r="20.664" fill="none"/>
+    </g>
+    <text id="_" data-name="$" transform="translate(-17619.244 -11320.891)" fill="#7fc032" font-size="29" font-family="MyriadHebrew-Bold, Myriad Hebrew" font-weight="700" letter-spacing="-0.054em"><tspan x="0" y="0">$</tspan></text>
+    <rect id="Rectangle_772" data-name="Rectangle 772" width="47.651" height="3.971" rx="1.985" transform="translate(-17633.803 -11296.563)" fill="#7fc032"/>
+    <rect id="Rectangle_773" data-name="Rectangle 773" width="47.651" height="3.971" rx="1.985" transform="translate(-17633.803 -11286.636)" fill="#7fc032"/>
+  </g>
+</svg>
