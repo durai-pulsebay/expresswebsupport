@@ -56,14 +56,14 @@ const Footer = () => {
                   Terms and Conditions
                 </a>
               </li>
-              <li className="pr-5">
+              {/* <li className="pr-5">
                 <a
                   className="px-3"
                   href={`${window.origin}/${window.countryCode}/refund-policy`}
                 >
                   Refund Policy
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className="flex justify-center py-3">
