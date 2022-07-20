@@ -7,9 +7,8 @@ const Footer = () => {
         <div>
           <a href="/">
             <img
-              className="mx-auto py-3 w-[80%]"
-              src="assets/images/white-logo.svg"
-              alt=""
+              src={`${window.origin}/assets/images/white-logo.svg`}
+              className="w-[70%]"
             />
           </a>
         </div>
