@@ -14,7 +14,7 @@ const Home = () => {
               In {window.countryName}
               {/* In {params && params.country == 'in' ? 'India' : 'New Zealand'} */}
             </h1>
-            <p className="m-3 max-w-2xl text-xl text-center mx-auto italic">
+            <p className="m-3 max-w-4xl text-xl text-center mx-auto italic">
               Express Shopify Support is a team of experts aiming to solve your
               website problems. Get an instant quote for any Shopify related
               design and development.
@@ -25,34 +25,36 @@ const Home = () => {
             >
               Let's Get Started
             </a>
-            <div className="flex flex-wrap items-center justify-around py-10">
-              <div className="lg:w-[30%]">
+            <div className="flex w-[75%] flex-wrap items-center justify-around py-5 mx-auto">
+              <div className="lg:w-[40%]">
                 <img src={`${window.origin}/assets/images/home-robo.svg`} />
               </div>
-              <div className="lg:w-[23%] py-3 flex flex-col items-center justify-center">
-                <img
-                  src={`${window.origin}/assets/images/help-us.svg`}
-                  className="w-[70%]"
-                />
-                <h3 className="text-xl py-2 font-medium text-[#144645]">
-                  Help Us Understand
-                </h3>
-              </div>
-              <div className="lg:w-[23%] py-3 flex flex-col items-center justify-center">
-                <img
-                  src={`${window.origin}/assets/images/get-a-quote.svg`}
-                  className="w-[70%]"
-                />
-                <h3 className="text-xl py-2 font-medium">Get A Quote</h3>
-              </div>
-              <div className="lg:w-[23%] py-3 flex flex-col items-center justify-center">
-                <img
-                  src={`${window.origin}/assets/images/coding.svg`}
-                  className="w-[70%]"
-                />
-                <h3 className="text-xl py-2 font-medium">
-                  Relax While We Take Care Of It
-                </h3>
+              <div className="lg:w-[60%] flex flex-wrap items-center justify-center">
+                <div className="lg:w-[50%] py-3 flex flex-col items-center justify-center">
+                  <img
+                    src={`${window.origin}/assets/images/help-us.svg`}
+                    className="w-[40%]"
+                  />
+                  <h3 className="text-lg py-2 font-medium text-[#144645]">
+                    Help Us Understand
+                  </h3>
+                </div>
+                <div className="lg:w-[50%] py-3 flex flex-col items-center justify-center">
+                  <img
+                    src={`${window.origin}/assets/images/get-a-quote.svg`}
+                    className="w-[40%]"
+                  />
+                  <h3 className="text-lg py-2 font-medium">Get A Quote</h3>
+                </div>
+                <div className="lg:w-[50%] py-3 flex flex-col items-center justify-center">
+                  <img
+                    src={`${window.origin}/assets/images/coding.svg`}
+                    className="w-[40%]"
+                  />
+                  <h3 className="text-lg py-2 font-medium">
+                    Relax While We Take Care Of It
+                  </h3>
+                </div>
               </div>
             </div>
           </div>
