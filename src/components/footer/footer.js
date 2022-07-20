@@ -7,8 +7,8 @@ const Footer = () => {
         <div>
           <a href="/">
             <img
-              src={`${window.origin}/assets/images/white-logo.svg`}
-              className="w-[70%]"
+              src={`${window.origin}/assets/images/white-logo.png`}
+              className="w-[80%] mx-auto"
             />
           </a>
         </div>
@@ -56,14 +56,14 @@ const Footer = () => {
                   Terms and Conditions
                 </a>
               </li>
-              <li className="pr-5">
+              {/* <li className="pr-5">
                 <a
                   className="px-3"
                   href={`${window.origin}/${window.countryCode}/refund-policy`}
                 >
                   Refund Policy
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className="flex justify-center py-3">

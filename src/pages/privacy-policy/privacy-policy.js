@@ -1,13 +1,218 @@
-import React from 'react';
+import React from "react";
 import Navbar from "../../components/navbar/navbar";
-import { Link } from 'react-scroll';
+import { Link } from "react-scroll";
 
 const Contact = () => {
-    return (
-        <div>
-            <section class="bg-sandel-clr">
-                <Navbar />
-                <div class="container mx-auto p-5">
+  return (
+    <div>
+      <section class="bg-sandel-clr">
+        <Navbar />
+        <div className="container py-10">
+          <h2 className="font-bold text-2xl text-center py-3 text-[#144645] ">
+            Our Privacy Policy
+          </h2>
+          <p className="text-md pb-5">
+            You should read this website privacy policy carefully as it includes
+            important information about who we are, how we collect, store, use,
+            and share personal information, as well as your rights with regard
+            to your personal information and how to contact us.
+          </p>
+          <h3 className="font-medium capitalize text-xl pb-2 text-dark-green">
+            Who we are
+          </h3>
+          <p className="text-md pb-5">
+            This website is operated by Pulsebay New Zealand Limited a company
+            registered in New Zealand. Our registered office is at 121 Newton
+            Road, Eden Terrace, Auckland.{" "}
+          </p>
+          <h3 className="font-medium capitalize text-xl pb-2 text-dark-green">
+            Information Collection
+          </h3>
+          <p className="text-md pb-5">
+            We collect personal information about you when you access our
+            website, register with us, contact us, send us feedback and purchase
+            services via our website. We collect this personal information from
+            you either when and if you provide information to us or from your
+            social media account if you have used it to register or login in or
+            automatically through operating our services . Let’s go over the
+            information that we collect.
+            <br />
+            <span className="italic inline-block py-3">
+              Information You Provide to Us
+            </span>
+            <br />
+            <span className="font-medium text-md">
+              Examples of information we collect from the information you
+              provide us are
+            </span>
+          </p>
+          <ul className="list-disc pl-10 pb-3">
+            <li>your name, address and contact details</li>
+            <li>account details such as username, login details</li>
+            <li>
+              payment details through gateway tokens. We do not store credit
+              card numbers or bank details as part of our payment process
+            </li>
+            <li>your website and domain information</li>
+            <li>website login details</li>
+            <li>details of feedback you provide us</li>
+            <li>
+              any pre-sales, billing and support communications including
+              communication with the chat agent(s)
+            </li>
+            <li>information on where you found us</li>
+          </ul>
+          <p className="text-md pb-3 italic inline-block py-3">
+            Information collected automatically
+          </p>
+          <p className="text-md pb-5">
+            Some of the information we collect automatically are:
+          </p>
+          <ul className="list-disc pl-10 pb-3">
+            <li>
+              log information such as browser type, IP address, location, unique
+              device identifiers, language preference, the date and time of
+              access, operating system, and mobile network information
+            </li>
+            <li>
+              transactional information such as product details, purchase price,
+              and the date and location of the transaction.
+            </li>
+            <li>
+              information from cookies to help us identify you and your device
+              and store some information about your preferences or past actions.
+              See our Cookie Policy section to learn more about cookies, our use
+              of them, when we will ask for your consent before placing them,
+              and how to disable them.
+            </li>
+          </ul>
+          <h3 className="font-medium capitalize text-xl pb-2 text-dark-green">
+            Information Use
+          </h3>
+          <p className="text-md pb-5">We use the information collected to </p>
+          <ul className="list-disc pl-10 pb-3">
+            <li>manage and verify your account</li>
+            <li>provides our services to you </li>
+            <li>communicate with you</li>
+            <li>customise our website and its content to your location</li>
+            <li>
+              notify you of any changes to our website or to our services that
+              may affect you
+            </li>
+            <li>
+              assist in transfers and migrations from other providers to us
+            </li>
+            <li>prevent fraud</li>
+            <li>
+              to market our services – you can opt out of marketing
+              communication. See our marketing section for more details.
+            </li>
+          </ul>
+          <h3 className="font-medium capitalize text-xl pb-2 text-dark-green">
+            Information Sharing
+          </h3>
+          <p className="text-md pb-5">
+            We will never sell your personal information or data to a third
+            party
+          </p>
+          <p className="text-md pb-5">
+            However, we may share your personal data with affiliated companies
+            or with trusted third parties and service providers who we partner
+            with in order to provide you with our services. These services
+            include:
+          </p>
+          <ul className="list-disc pl-10 pb-3">
+            <li>processing payments</li>
+            <li>providing sales, customer service and technical support</li>
+            <li>providing additional tools and software at your request</li>
+            <li>
+              performing analysis of our services and customers demographics
+            </li>
+            <li>communicating with you, such as by way of email </li>
+            <li>customer relationship management</li>
+            <li>
+              providing website maintenance & fixing services at your request
+            </li>
+          </ul>
+          <p className="text-md pb-5">
+            We only share your personal data as necessary for any third party to
+            provide the services as requested or as needed on our behalf. These
+            third parties (and any subcontractors) are subject to strict data
+            processing terms and conditions and are prohibited from utilising,
+            sharing or retaining your personal data for any purpose other than
+            as they have been specifically contracted for. We will share
+            personal information with law enforcement or other authorities if
+            required by applicable law. We will not share your personal
+            information with any other third party.
+          </p>
+          <h3 className="font-medium capitalize text-xl pb-2 text-dark-green">
+            How long do we hold your information?
+          </h3>
+          <p className="text-md pb-5">
+            We will only keep your personal information for as long as it is
+            necessary for the purposes set out in this privacy notice unless a
+            longer retention period is required or permitted by law (such as
+            tax, accounting, or other legal requirements).
+            <br /> When we have no ongoing legitimate business need to process
+            your personal information, we will either delete or anonymise such
+            information, or, if this is not possible (for example, because your
+            personal information has been stored in backup archives), then we
+            will securely store your personal information and isolate it from
+            any further processing until deletion is possible.
+          </p>
+          <h3 className="font-medium capitalize text-xl pb-2 text-dark-green">
+            Cookie Policy
+          </h3>
+          <p className="text-md pb-5">
+            Cookies are strings of information that websites store on visitor's
+            computers and that each time a visitor revisits the site, the
+            computer sends to the website. Cookie is a small text file which is
+            placed onto your device when you use our website. Our website uses
+            cookies to help us identify you and your device and store some
+            information about your preferences or past actions. <br />
+            You can choose to set your browser to remove or reject browser
+            cookies before using our website, with the drawback that certain
+            features of the websites may not function properly without the aid
+            of cookies. Express Shopify Support will respond to “do not track”
+            signals across and will not track your device.
+          </p>
+          <h3 className="font-medium capitalize text-xl pb-2 text-dark-green">
+            Marketing
+          </h3>
+          <p className="text-md pb-5">
+            We would like to send you information about our products and
+            services and special offers, which may be of interest to you. Where
+            we have your consent or it is in our legitimate interests to do so,
+            we may do this by email. We will only ask whether you would like us
+            to send you marketing messages when you tick the relevant boxes when
+            you register with us for the first time. If you have previously
+            agreed to being contacted in this way, you can unsubscribe at any
+            time by adjusting your settings.
+          </p>
+          <h3 className="font-medium capitalize text-xl pb-2 text-dark-green">
+            Security
+          </h3>
+          <p className="text-md pb-5">
+            While no online service is 100% secure, we work very hard to protect
+            information about you against unauthorized access, use, alteration,
+            or destruction, and take reasonable measures to do so. We monitor
+            our Services for potential vulnerabilities and attacks.
+          </p>
+          <h3 className="font-medium capitalize text-xl pb-2 text-dark-green">
+            Request to review, update or delete your data
+          </h3>
+          <p className="text-md pb-5">
+            Based on the applicable laws of your country, you may have the right
+            to request access to the personal information we collect from you,
+            change that information, or delete it. To request to review, update,
+            or delete your personal information, please send us an email to
+            <a className="pl-2" href="mailto:admin@expressshopifysupport.com">
+              admin@expressshopifysupport.com
+            </a>
+            .
+          </p>
+        </div>
+        {/* <div class="container mx-auto p-5">
                     <div class="flex flex-wrap items-center justify-around w-full">
                         <div class="p-5 md:pr-20">
                             <p class="pb-3">This privacy notice for Express Shopify Support (<span class="font-semibold">"Company," "we," "us," or "our"</span>), describes how and why we might collect, store, use, and/or share ("<span class="font-semibold">process</span>") your information when you use our services ("<span class="font-semibold">Servicess</span>"), such as Shopify advice and support.</p>
@@ -84,7 +289,7 @@ const Contact = () => {
                             In Short: We may share information in specific situations described in this section and/or with the following third parties.<br /><br />
 
                             We may need to share your personal information in the following situations:<br /><br />
-                            <ul class="list-inside list-disc">
+                            <ul class="list-inside list-disc pl-10 pb-3">
                                 <li>Business Transfers. We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.</li>
                                 <li>Affiliates. We may share your information with our affiliates, in which case we will require those affiliates to honor this privacy notice. Affiliates include our parent company and any subsidiaries, joint venture partners, or other companies that we control or that are under common control with us.</li>
                                 <li>Business Partners. We may share your information with our business partners to offer you certain products, services, or promotions.</li>
@@ -170,10 +375,10 @@ const Contact = () => {
                             Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, change that information, or delete it. To request to review, update, or delete your personal information, please send us an email to admin@expressshopifysupport.com
                         </div>
                     </div>
-                </div>
-            </section>
-        </div>
-    );
-}
+                </div> */}
+      </section>
+    </div>
+  );
+};
 
 export default Contact;
