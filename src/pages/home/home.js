@@ -42,7 +42,7 @@ const Home = () => {
                 related design and development.
               </p>
               <a
-                className="bg-lite-green inline-block  text-center font-medium text-[#fff] min-w-[100px] py-2 px-5 m-5 my-auto rounded "
+                className="bg-[#68992D] inline-block  text-center font-medium text-[#fff] min-w-[100px] py-2 px-5 m-5 my-auto rounded "
                 href=""
               >
                 Let's Get Started
@@ -94,8 +94,10 @@ const Home = () => {
                   alt=""
                   width="100px;"
                 />
-                <h2 className="text-3xl font-semibold">No Fix, No Fee</h2>
-                <p className="py-3 max-w-xs">
+                <h2 className="text-3xl font-bold text-dark-green">
+                  No Fix, No Fee
+                </h2>
+                <p className="py-3 text-xl max-w-xs">
                   100% Satisfaction Guaranteed or Money Refunded
                 </p>
                 <div className="inner-set bg-[#EDFDDB] p-5 border-4 border-[#243c5a] text-sm rounded-lg">
@@ -133,7 +135,7 @@ const Home = () => {
                   className="bg-lite-green text-center font-medium text-[#252525] min-w-[100px] py-2 px-5 my-5 rounded "
                   href=""
                 >
-                  Fix my Issue
+                  Fix My Issue
                 </a>
               </div>
             </div>
@@ -161,7 +163,7 @@ const Home = () => {
               />
             </div>
             <div className="lg:w-1/2 py-5">
-              <h2 className="font-semibold text-2xl text-[#144645]">
+              <h2 className="font-semibold capitalize text-2xl text-[#144645]">
                 We assist with a wide range of customizations
               </h2>
               <p className="py-3 max-w-md">
@@ -172,14 +174,14 @@ const Home = () => {
                 for the number of hours we spend bringing the site to life.
               </p>
               <a
-                className="bg-lite-green text-center font-medium text-[#ffffff] min-w-[100px] py-2 px-5 my-7 rounded-full "
+                className="bg-lite-green inline-block text-center font-medium text-[#ffffff] min-w-[100px] py-2 px-10 my-2 rounded-full "
                 href=""
               >
                 Customize Now
               </a>
             </div>
             <div className="lg:w-1/2 py-5 md:pr-10  md:text-right">
-              <h2 className="font-semibold text-2xl text-[#144645]">
+              <h2 className="font-semibold capitalize text-2xl text-[#144645]">
                 Get an instant quote
               </h2>
               <p className="py-3  md:pl-[50px] ">
@@ -190,7 +192,7 @@ const Home = () => {
                 theme migration.
               </p>
               <a
-                className="bg-lite-green text-center font-medium text-[#ffffff] min-w-[100px] py-2 px-5 my-7 rounded-full "
+                className="bg-lite-green inline-block text-center font-medium text-[#ffffff] min-w-[100px] py-2 px-10 my-2 rounded-full "
                 href=""
               >
                 Let's Chat
