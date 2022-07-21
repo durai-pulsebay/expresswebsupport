@@ -202,7 +202,7 @@ const HowCanWeHelpPage = () => {
           </section>
           <section className="container mx-auto">
             <div>
-              <h2 className="py-10 font-semibold text-4xl text-[#144645] ">
+              <h2 className="py-10 font-bold text-4xl text-[#144645] ">
                 How We Deliver{" "}
                 <span className="text-[#59ACA7] ">
                   Great Service With
