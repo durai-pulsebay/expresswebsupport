@@ -7,8 +7,8 @@ const Contact = () => {
   return (
     <>
       <SuperSEO
-        title="Privacy Policy"
-        description="React SEO component with OpenGraph and Twitter Cards support."
+        title="Terms And Conditions"
+        description="Express Shopify Support- Instant Quote"
         lang="en"
         openGraph={{
           ogImage: {
