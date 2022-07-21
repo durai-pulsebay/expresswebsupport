@@ -228,7 +228,7 @@ const HowCanWeHelpPage = () => {
                       1
                     </h2>
                   </div>
-                  <h2 className="text-xl font-semibold text text-[#144645] ">
+                  <h2 className="text-xl font-bold text text-[#144645] ">
                     Get A Quote
                   </h2>
                   <p className="text-md">
@@ -250,7 +250,7 @@ const HowCanWeHelpPage = () => {
                       2
                     </h2>
                   </div>
-                  <h2 className="text-xl font-semibold text text-[#144645] ">
+                  <h2 className="text-xl font-bold text text-[#144645] ">
                     We Open A Ticket
                   </h2>
                   <p className="text-md">
@@ -272,7 +272,7 @@ const HowCanWeHelpPage = () => {
                       3
                     </h2>
                   </div>
-                  <h2 className="text-xl font-semibold text text-[#144645] ">
+                  <h2 className="text-xl font-bold text text-[#144645] ">
                     We Fix It
                   </h2>
                   <p className="text-md ">
