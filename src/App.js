@@ -8,6 +8,8 @@ import {
 
 import loadable from "@loadable/component";
 const HomePage = loadable(() => import("../src/pages/home/home"));
+const Page404 = loadable(() => import("../src/pages/404/404-page"));
+
 const ConatctPage = loadable(() => import("../src/pages/contact/contact"));
 const HowCanWeHelpPage = loadable(() =>
   import("../src/pages/how-can-we-help/how-can-we-help")
@@ -106,6 +108,9 @@ export default function App() {
           </Route> */}
           <Route path="/:country/successful-payment">
             <SuccessfullPaymentPage />
+          </Route>
+          <Route path="*">
+            <Page404 />
           </Route>
         </Switch>
       </Router>
