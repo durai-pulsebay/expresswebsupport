@@ -29,7 +29,7 @@ const Footer = () => {
                   className="px-3"
                   href={`${window.origin}/${window.countryCode}/how-can-we-help`}
                 >
-                  How can we help
+                  How Can We help
                 </a>
               </li>
               <li className="pr-5">
@@ -81,7 +81,7 @@ const Footer = () => {
         <div className="container text-center py-3 text-[#ffffff] border-t border-[#FBF7ED] ">
           <div>
             <p>
-              Copyrights 2022 all rights reserved{" "}
+              Copyrights 2022 All Rights Reserved{" "}
               <span className="font-medium text-[#91D63F]">
                 <a href="https://expressshopifysupport.com/">
                   Express Shopify Support

@@ -1,10 +1,33 @@
 import React from "react";
 import Navbar from "../../components/navbar/navbar";
 import { Link } from "react-scroll";
+import { SuperSEO } from "react-super-seo";
 
 const Contact = () => {
   return (
     <div>
+      <SuperSEO
+        title="Privacy Policy"
+        description="React SEO component with OpenGraph and Twitter Cards support."
+        lang="en"
+        openGraph={{
+          ogImage: {
+            ogImage: `{${window.origin}/assets/images/seo-img.png}`,
+            ogImageAlt: "Express Shopify Support",
+            ogImageWidth: 1200,
+            ogImageHeight: 630,
+            ogImageType: "image/jpeg",
+          },
+        }}
+        twitter={{
+          twitterSummaryCard: {
+            summaryCardImage: `{${window.origin}/assets/images/seo-img.png}`,
+            summaryCardImageAlt: "Express Shopify Support",
+          },
+        }}
+      >
+        <meta name="robots" content="noindex, nofollow" />
+      </SuperSEO>
       <section class="bg-sandel-clr">
         <Navbar />
         <div className="container py-10">
