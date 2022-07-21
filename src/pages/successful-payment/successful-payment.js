@@ -27,12 +27,6 @@ const Refund = () => {
               </h3>
               <div class="flex flex-wrap text-center">
                 <div class=" p-5">
-                  {/* <h4 class="text-[#144645] font-bold text-xl	py-3 sm:text-1xl">
-                    <span class="bg-pale-green px-3 py-1 mr-3 text-white rounded-3xl">
-                      1
-                    </span>
-                    Take a Ticket
-                  </h4> */}
                   <p>
                     We have received your request and a ticket number has been
                     generated. One of our shopify experts will be assigned to
@@ -40,32 +34,6 @@ const Refund = () => {
                     questions.
                   </p>
                 </div>
-                {/* <div class="md:w-[33%] p-5">
-                  <h4 class="text-[#144645] font-bold text-xl	py-3 sm:text-1xl">
-                    <span class="bg-pale-green px-3 py-1 mr-3 text-white rounded-3xl">
-                      2
-                    </span>
-                    Take a Ticket
-                  </h4>
-                  <p>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                    diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                    aliquyam erat, sed diam voluptua. At
-                  </p>
-                </div>
-                <div class="md:w-[33%] p-5">
-                  <h4 class="text-[#144645] font-bold text-xl	py-3 sm:text-1xl">
-                    <span class="bg-pale-green px-3 py-1 mr-3 text-white rounded-3xl">
-                      3
-                    </span>
-                    Take a Ticket
-                  </h4>
-                  <p>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                    diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                    aliquyam erat, sed diam voluptua. At
-                  </p>
-                </div> */}
               </div>
             </div>
           </div>

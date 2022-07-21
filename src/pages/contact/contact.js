@@ -31,8 +31,10 @@ const Contact = () => {
           <div className="container mx-auto p-5">
             <div className="flex flex-wrap items-center justify-around w-full">
               <div className="w-full lg:w-1/2 p-5 md:pr-20 ">
-                <h2 className="text-3xl font-semibold">Get In Touch </h2>
-                <p className="mb-4">Express shopify support</p>
+                <h2 className="text-4xl text-dark-green font-bold">
+                  Get In Touch{" "}
+                </h2>
+                <p className="mb-4 text-xl">Express shopify support</p>
                 <form>
                   <div className="mb-4 ">
                     <label
@@ -94,7 +96,7 @@ const Contact = () => {
 
                   <button
                     type="submit"
-                    className="bg-dark-green text-[#fff]  hover:bg-[#144645] focus:ring-4 focus:ring-blue-300 font-medium rounded-sm text-sm sm:w-auto px-5 py-2.5 text-center dark:bg-[#144645] dark:hover:bg-[#144645] dark:focus:ring-[#144645]"
+                    className="bg-dark-green text-[#fff]  hover:bg-[#144645]  font-medium rounded-sm text-sm sm:w-auto px-5 py-2.5 text-center dark:bg-[#144645] dark:hover:bg-[#144645] dark:focus:ring-[#144645]"
                   >
                     Submit
                   </button>
