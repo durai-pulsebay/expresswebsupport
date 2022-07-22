@@ -41,7 +41,7 @@ const Page404 = () => {
               <p className="text-3xl font-semibold">
                 Oops! Something Went Wrong
               </p>
-              <p className="text-[250px] font-bold leading-none text-dark-green">
+              <p className="text-[178px] font-bold leading-none text-dark-green">
                 404
               </p>
               <a
