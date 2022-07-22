@@ -82,9 +82,6 @@ export default function App() {
           <Route path="/terms-and-conditions">
             <TermsAndConditionsPage />
           </Route>
-          {/* <Route path="/refund-policy">
-            <RefundPolicyPage />
-          </Route> */}
           <Route path="/successful-payment">
             <SuccessfullPaymentPage />
           </Route>
