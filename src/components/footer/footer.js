@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="my-auto py-3  text-[#fff]">
             <button className="hidden"></button>
             <ul className="lg:flex py-3 text-center">
-              <li className="pr-5">
+              <li className="pb-3 lg:pb-0 lg:pr-5">
                 <a
                   className="px-3 hover:text-[#91D63F]"
                   href={`${window.origin}/${window.countryCode}/`}
@@ -24,7 +24,7 @@ const Footer = () => {
                   Home
                 </a>
               </li>
-              <li className="pr-5">
+              <li className="pb-3 lg:pb-0 lg:pr-5">
                 <a
                   className="px-3 hover:text-[#91D63F]"
                   href={`${window.origin}/${window.countryCode}/how-can-we-help`}
@@ -32,7 +32,7 @@ const Footer = () => {
                   How Can We help
                 </a>
               </li>
-              <li className="pr-5">
+              <li className="pb-3 lg:pb-0 lg:pr-5">
                 <a
                   className="px-3 hover:text-[#91D63F]"
                   href={`${window.origin}/${window.countryCode}/contact`}
@@ -40,7 +40,7 @@ const Footer = () => {
                   Contact
                 </a>
               </li>
-              <li className="pr-5">
+              <li className="pb-3 lg:pb-0 lg:pr-5">
                 <a
                   className="px-3 hover:text-[#91D63F]"
                   href={`${window.origin}/${window.countryCode}/privacy-policy`}
@@ -48,7 +48,7 @@ const Footer = () => {
                   Privacy Policy
                 </a>
               </li>
-              <li className="pr-5">
+              <li className=" lg:pr-5">
                 <a
                   className="px-3 hover:text-[#91D63F]"
                   href={`${window.origin}/${window.countryCode}/terms-and-conditions`}
