@@ -8,13 +8,13 @@ const HowCanWeHelpPage = () => {
   return (
     <>
       <SuperSEO
-        title="Express Shopify Support - Get Instant Help For Your Shopify Site"
-        description="Get your Shopify site customized in less than 48 hours. Just a little help or extensive support, Express Shopify Support is your ultimate solution."
+        title="Express Web Support - Get Instant Help For Your Shopify Site"
+        description="Get your Shopify site customized in less than 48 hours. Just a little help or extensive support, Express Web Support is your ultimate solution."
         lang="en"
         openGraph={{
           ogImage: {
             ogImage: `{${window.origin}/assets/images/seo-img.png}`,
-            ogImageAlt: "Express Shopify Support",
+            ogImageAlt: "Express Web Support",
             ogImageWidth: 1200,
             ogImageHeight: 630,
             ogImageType: "image/png",
@@ -23,7 +23,7 @@ const HowCanWeHelpPage = () => {
         twitter={{
           twitterSummaryCard: {
             summaryCardImage: `{${window.origin}/assets/images/seo-img.png}`,
-            summaryCardImageAlt: "Express Shopify Support",
+            summaryCardImageAlt: "Express Web Support",
           },
         }}
       />
@@ -39,8 +39,8 @@ const HowCanWeHelpPage = () => {
                 </h1>
                 <p className="my-5">
                   Our team of experts are here to help you. Whether you need a
-                  little help or extensive support, Express Shopify Support is
-                  your ultimate solution.
+                  little help or extensive support, Express Web Support is your
+                  ultimate solution.
                 </p>
                 <a className="bg-[#91D63F] text-center font-medium text-[#fff] min-w-[100px] py-2 px-5  my-auto rounded">
                   Fix my Issue
