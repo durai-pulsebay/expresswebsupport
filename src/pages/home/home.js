@@ -6,8 +6,8 @@ const Home = () => {
   return (
     <>
       <SuperSEO
-        title="Home"
-        description="Express Shopify Support- Instant Quote"
+        title="Express Shopify Support – Trusted Experts In Shopify Customization"
+        description="Our Shopify experts provide the best Shopify technical help for those who need it. Live chat with an agent now to get an instant quote."
         lang="en"
         openGraph={{
           ogImage: {

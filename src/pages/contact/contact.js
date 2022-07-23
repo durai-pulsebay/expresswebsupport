@@ -6,8 +6,8 @@ const Contact = () => {
   return (
     <>
       <SuperSEO
-        title="Contact"
-        description="Express Shopify Support- Instant Quote"
+        title="Express Shopify Support - Get it all done! From just $49"
+        description="Express Shopify Support can help you with anything from building a new store to fixing any issue you’re having. Talk to an expert now."
         lang="en"
         openGraph={{
           ogImage: {
