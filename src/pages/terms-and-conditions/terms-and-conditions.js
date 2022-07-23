@@ -8,12 +8,12 @@ const Contact = () => {
     <>
       <SuperSEO
         title="Terms And Conditions"
-        description="Express Shopify Support- Instant Quote"
+        description="Express Web Support- Instant Quote"
         lang="en"
         openGraph={{
           ogImage: {
             ogImage: `{${window.origin}/assets/images/seo-img.png}`,
-            ogImageAlt: "Express Shopify Support",
+            ogImageAlt: "Express Web Support",
             ogImageWidth: 1200,
             ogImageHeight: 630,
             ogImageType: "image/jpeg",
@@ -22,7 +22,7 @@ const Contact = () => {
         twitter={{
           twitterSummaryCard: {
             summaryCardImage: `{${window.origin}/assets/images/seo-img.png}`,
-            summaryCardImageAlt: "Express Shopify Support",
+            summaryCardImageAlt: "Express Web Support",
           },
         }}
       >
@@ -70,8 +70,8 @@ const Contact = () => {
               <br />
               <br />
               “We”, “Us”, “Our” means Pulsebay New Zealand Limited trading as
-              Express Shopify Support. We are registered in New Zealand and have
-              our registered office at 121 Newton Road, Auckland, New Zealand.
+              Express Web Support. We are registered in New Zealand and have our
+              registered office at 121 Newton Road, Auckland, New Zealand.
             </p>
             <h3 className="font-medium capitalize text-xl pb-2 text-dark-green">
               2. Account Registration
@@ -275,13 +275,13 @@ const Contact = () => {
               <li className="flex">
                 <p className="pr-3">3.10</p>
                 <p>
-                  3rd Parties: Express Shopify Support is not responsible for
-                  any work done by third parties on your website, or for any
+                  3rd Parties: Express Web Support is not responsible for any
+                  work done by third parties on your website, or for any
                   software or plugins that are utilised by you. There may be
                   occasions where actions by third party suppliers, such as
                   website hosts, software and plugin developers, web browsers,
                   email clients, domain name registrars or search engines, will
-                  affect Express Shopify Support’s ability to complete a fix or
+                  affect Express Web Support’s ability to complete a fix or
                   task. In the event of a third party interruption we will not
                   be liable for any delay in completing the fix or task. You
                   will not be entitled to a refund in the event that we are
@@ -574,7 +574,7 @@ const Contact = () => {
               9. Indemnification
             </h3>
             <p className="text-md pb-5">
-              You agree to indemnify and hold Express Shopify Support, its
+              You agree to indemnify and hold Express Web Support, its
               contractors, their respective directors, officers, employees, and
               agents from and against any and all losses, liabilities, demands,
               damages, costs, claims, and expenses, including attorneys’ fees,
@@ -611,12 +611,12 @@ const Contact = () => {
             <p className="text-md pb-5">
               The agreement (together with any other terms we provide that apply
               to any specific Service) constitutes the entire agreement between
-              Express Shopify Support and you concerning our Services. If any
-              part of the Agreement is unlawful, void, or unenforceable, that
-              part is severable from the Agreement, and does not affect the
-              validity or enforceability of the rest of the Agreement. A waiver
-              by either party of any term or condition of the Agreement or any
-              breach thereof, in any one instance, will not waive such term or
+              Express Web Support and you concerning our Services. If any part
+              of the Agreement is unlawful, void, or unenforceable, that part is
+              severable from the Agreement, and does not affect the validity or
+              enforceability of the rest of the Agreement. A waiver by either
+              party of any term or condition of the Agreement or any breach
+              thereof, in any one instance, will not waive such term or
               condition or any subsequent breach thereof.
             </p>
           </div>
