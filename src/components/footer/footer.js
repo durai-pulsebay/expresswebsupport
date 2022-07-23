@@ -100,7 +100,7 @@ const Footer = () => {
               Copyrights 2022 All Rights Reserved{" "}
               <span className="font-medium text-[#91D63F]">
                 <a href="https://expressshopifysupport.com/">
-                  Express Shopify Support
+                  Express Web Support
                 </a>
               </span>
             </p>
