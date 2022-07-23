@@ -7,12 +7,12 @@ const Page404 = () => {
     <>
       <SuperSEO
         title="404"
-        description="Express Shopify Support- Instant Quote"
+        description="Express Web Support- Instant Quote"
         lang="en"
         openGraph={{
           ogImage: {
             ogImage: `{${window.origin}/assets/images/seo-img.png}`,
-            ogImageAlt: "Express Shopify Support",
+            ogImageAlt: "Express Web Support",
             ogImageWidth: 1200,
             ogImageHeight: 630,
             ogImageType: "image/jpeg",
@@ -21,7 +21,7 @@ const Page404 = () => {
         twitter={{
           twitterSummaryCard: {
             summaryCardImage: `{${window.origin}/assets/images/seo-img.png}`,
-            summaryCardImageAlt: "Express Shopify Support",
+            summaryCardImageAlt: "Express Web Support",
           },
         }}
       >
