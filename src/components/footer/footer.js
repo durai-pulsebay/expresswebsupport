@@ -18,7 +18,7 @@ const Footer = () => {
             <ul className="lg:flex py-3 text-center">
               <li className="pr-5">
                 <a
-                  className="px-3"
+                  className="px-3 hover:text-[#91D63F]"
                   href={`${window.origin}/${window.countryCode}/`}
                 >
                   Home
@@ -26,7 +26,7 @@ const Footer = () => {
               </li>
               <li className="pr-5">
                 <a
-                  className="px-3"
+                  className="px-3 hover:text-[#91D63F]"
                   href={`${window.origin}/${window.countryCode}/how-can-we-help`}
                 >
                   How Can We help
@@ -34,7 +34,7 @@ const Footer = () => {
               </li>
               <li className="pr-5">
                 <a
-                  className="px-3"
+                  className="px-3 hover:text-[#91D63F]"
                   href={`${window.origin}/${window.countryCode}/contact`}
                 >
                   Contact
@@ -42,7 +42,7 @@ const Footer = () => {
               </li>
               <li className="pr-5">
                 <a
-                  className="px-3"
+                  className="px-3 hover:text-[#91D63F]"
                   href={`${window.origin}/${window.countryCode}/privacy-policy`}
                 >
                   Privacy Policy
@@ -50,7 +50,7 @@ const Footer = () => {
               </li>
               <li className="pr-5">
                 <a
-                  className="px-3"
+                  className="px-3 hover:text-[#91D63F]"
                   href={`${window.origin}/${window.countryCode}/terms-and-conditions`}
                 >
                   Terms and Conditions
