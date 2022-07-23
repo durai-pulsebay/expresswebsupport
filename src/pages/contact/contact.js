@@ -6,13 +6,13 @@ const Contact = () => {
   return (
     <>
       <SuperSEO
-        title="Contact"
-        description="Express Shopify Support- Instant Quote"
+        title="Express Web Support - Get it all done! From just $49"
+        description="Express Web Support can help you with anything from building a new store to fixing any issue you’re having. Talk to an expert now."
         lang="en"
         openGraph={{
           ogImage: {
             ogImage: `{${window.origin}/assets/images/seo-img.png}`,
-            ogImageAlt: "Express Shopify Support",
+            ogImageAlt: "Express Web Support",
             ogImageWidth: 1200,
             ogImageHeight: 630,
             ogImageType: "image/png",
@@ -21,7 +21,7 @@ const Contact = () => {
         twitter={{
           twitterSummaryCard: {
             summaryCardImage: `{${window.origin}/assets/images/seo-img.png}`,
-            summaryCardImageAlt: "Express Shopify Support",
+            summaryCardImageAlt: "Express Web Support",
           },
         }}
       />
@@ -32,9 +32,9 @@ const Contact = () => {
             <div className="flex flex-wrap items-center justify-around w-full">
               <div className="w-full lg:w-1/2 p-5 md:pr-20 ">
                 <h2 className="text-4xl text-dark-green font-bold">
-                  Get In Touch{" "}
+                  Get In Touch
                 </h2>
-                <p className="mb-4 text-xl">Express shopify support</p>
+                <p className="mb-4 text-xl">Express Web Support</p>
                 <form>
                   <div className="mb-4 ">
                     <label

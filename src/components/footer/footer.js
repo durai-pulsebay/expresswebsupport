@@ -7,7 +7,7 @@ const Footer = () => {
         <div>
           <a href="/">
             <img
-              src={`${window.origin}/assets/images/white-logo.png`}
+              src={`${window.origin}/assets/images/f-white-logo.png`}
               className="w-[80%] mx-auto"
             />
           </a>
@@ -18,7 +18,7 @@ const Footer = () => {
             <ul className="lg:flex py-3 text-center">
               <li className="pr-5">
                 <a
-                  className="px-3"
+                  className="px-3 hover:text-[#91D63F]"
                   href={`${window.origin}/${window.countryCode}/`}
                 >
                   Home
@@ -26,7 +26,7 @@ const Footer = () => {
               </li>
               <li className="pr-5">
                 <a
-                  className="px-3"
+                  className="px-3 hover:text-[#91D63F]"
                   href={`${window.origin}/${window.countryCode}/how-can-we-help`}
                 >
                   How Can We help
@@ -34,7 +34,7 @@ const Footer = () => {
               </li>
               <li className="pr-5">
                 <a
-                  className="px-3"
+                  className="px-3 hover:text-[#91D63F]"
                   href={`${window.origin}/${window.countryCode}/contact`}
                 >
                   Contact
@@ -42,7 +42,7 @@ const Footer = () => {
               </li>
               <li className="pr-5">
                 <a
-                  className="px-3"
+                  className="px-3 hover:text-[#91D63F]"
                   href={`${window.origin}/${window.countryCode}/privacy-policy`}
                 >
                   Privacy Policy
@@ -50,7 +50,7 @@ const Footer = () => {
               </li>
               <li className="pr-5">
                 <a
-                  className="px-3"
+                  className="px-3 hover:text-[#91D63F]"
                   href={`${window.origin}/${window.countryCode}/terms-and-conditions`}
                 >
                   Terms and Conditions
@@ -66,9 +66,13 @@ const Footer = () => {
               </li> */}
             </ul>
           </div>
-          <div className="flex justify-center py-3">
+          {/* <div className="flex justify-center py-3">
             <a href="#">
-              <img className="pr-3" src="assets/images/facebook.svg" alt="" />
+              <img
+                className="pr-3"
+                src={`${window.origin}/assets/images/facebook.svg`}
+                alt=""
+              />
             </a>
             <a href="#">
               <img className="pr-3" src="assets/images/instagram.svg" alt="" />
@@ -76,18 +80,31 @@ const Footer = () => {
             <a href="#">
               <img className="pr-3" src="assets/images/Linked-in.svg" alt="" />
             </a>
-          </div>
+          </div> */}
         </div>
-        <div className="container text-center py-3 text-[#ffffff] border-t border-[#FBF7ED] ">
-          <div>
+        <div className="container  text-center py-3 text-[#ffffff] border-t border-[#FBF7ED] ">
+          <div className="flex flex-wrap justify-center lg:justify-between items-center">
+            <div className="p-3 lg:p-0">
+              <a
+                href="https://www.facebook.com/expressshopifysupport"
+                target="_blank"
+              >
+                <img
+                  className="pr-3 w-[80%]"
+                  src={`${window.origin}/assets/images/facebook.svg`}
+                  alt=""
+                />
+              </a>
+            </div>
             <p>
               Copyrights 2022 All Rights Reserved{" "}
               <span className="font-medium text-[#91D63F]">
                 <a href="https://expressshopifysupport.com/">
-                  Express Shopify Support
+                  Express Web Support
                 </a>
               </span>
             </p>
+            <div></div>
           </div>
         </div>
       </footer>

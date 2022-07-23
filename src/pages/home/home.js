@@ -6,13 +6,13 @@ const Home = () => {
   return (
     <>
       <SuperSEO
-        title="Home"
-        description="Express Shopify Support- Instant Quote"
+        title="Express Web Support – Trusted Experts In Shopify Customization"
+        description="Our Shopify experts provide the best Shopify technical help for those who need it. Live chat with an agent now to get an instant quote."
         lang="en"
         openGraph={{
           ogImage: {
             ogImage: `{${window.origin}/assets/images/seo-img.png}`,
-            ogImageAlt: "Express Shopify Support",
+            ogImageAlt: "Express Web Support",
             ogImageWidth: 1200,
             ogImageHeight: 630,
             ogImageType: "image/png",
@@ -21,7 +21,7 @@ const Home = () => {
         twitter={{
           twitterSummaryCard: {
             summaryCardImage: `{${window.origin}/assets/images/seo-img.png}`,
-            summaryCardImageAlt: "Express Shopify Support",
+            summaryCardImageAlt: "Express Web Support",
           },
         }}
       />
@@ -37,9 +37,9 @@ const Home = () => {
                 {/* In {params && params.country == 'in' ? 'India' : 'New Zealand'} */}
               </h1>
               <p className="m-4 max-w-4xl text-xl text-center mx-auto italic">
-                Express Shopify Support is a team of experts aiming to solve
-                your website problems. Get an instant quote for any Shopify
-                related design and development.
+                Express Web Support is a team of experts aiming to solve your
+                website problems. Get an instant quote for any Shopify related
+                design and development.
               </p>
               <a
                 className="bg-[#68992D] inline-block  text-center font-medium text-[#fff] min-w-[100px] py-2 px-5 m-5 my-auto rounded "
@@ -102,7 +102,7 @@ const Home = () => {
                 </p>
                 <div className="inner-set bg-[#EDFDDB] p-5 border-4 border-[#243c5a] text-sm rounded-lg">
                   <p className="max-w-xs">
-                    Express Shopify Support is a support service for ecommerce
+                    Express Web Support is a support service for ecommerce
                     businesses on Shopify. We guarantee to have any issue
                     resolved within 48 hours and 100% satisfaction guaranteed or
                     money refunded. Our mission is to give the best customer
@@ -149,8 +149,8 @@ const Home = () => {
                   Why Choose Us?
                 </h2>
                 <p className="text-center text-md italic py-2">
-                  Quick guaranteed outcome. With Express Shopify Support, you
-                  will have more time to focus on what really matters – your
+                  Quick guaranteed outcome. With Express Web Support, you will
+                  have more time to focus on what really matters – your
                   business!
                 </p>
               </div>
@@ -169,7 +169,7 @@ const Home = () => {
               <p className="py-3 max-w-md">
                 Shopify has many great features that can be hard for someone new
                 to use. Whether you are looking for new features or
-                enhancements, Express Shopify Support can help you as soon as
+                enhancements, Express Web Support can help you as soon as
                 possible. No job is too small or too large. We charge you only
                 for the number of hours we spend bringing the site to life.
               </p>
