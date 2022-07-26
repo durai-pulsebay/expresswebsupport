@@ -85,10 +85,7 @@ const Footer = () => {
         <div className="container  text-center py-3 text-[#ffffff] border-t border-[#FBF7ED] ">
           <div className="flex flex-wrap justify-center lg:justify-between items-center">
             <div className="p-3 lg:p-0">
-              <a
-                href="https://www.facebook.com/expressshopifysupport"
-                target="_blank"
-              >
+              <a href="https://www.facebook.com/expressweb/" target="_blank">
                 <img
                   className="pr-3 w-[80%]"
                   src={`${window.origin}/assets/images/facebook.svg`}
