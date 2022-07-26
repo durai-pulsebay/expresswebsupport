@@ -1,23 +1,36 @@
 import React from "react";
 import Navbar from "../../components/navbar/navbar";
+import {Helmet} from "react-helmet";
 import { SuperSEO } from "react-super-seo";
 import price from "../../data/price.json";
 
 const Home = () => {
-  const priceWithCurrencyCode =
-    price[window?.countryCode] !== undefined
-      ? price[window?.countryCode]?.symbol === true
-        ? `${price[window?.countryCode]?.currencyCode}${
-            price[window?.countryCode]?.amount
-          }`
-        : price[window?.countryCode]?.amount +
-          `<span class="text-3xl">` +
-          price[window?.countryCode]?.currencyCode +
-          `</span>`
-      : `${price?.us?.amount} ${price?.us?.currencyCode}`;
+
+  const priceWithCurrencyCode = window?.countryCode !== undefined ? ( price[window?.countryCode] ? ( price[window?.countryCode]?.symbol === true ? 
+    `${price[window?.countryCode]?.currencyCode}${price[window?.countryCode]?.amount}` : 
+    (price[window?.countryCode]?.amount + `<span class="text-3xl">` + price[window?.countryCode]?.currencyCode + `</span>`)
+  ) : `${price?.us?.amount} ${price?.us?.currencyCode}` ) : ''
+  
   return (
     <>
-      <SuperSEO
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Express Web Support – Trusted Experts In Shopify Customization</title>
+        <meta name="description" content="Our Shopify experts provide the best Shopify technical help for those who need it. Live chat with an agent now to get an instant quote." />
+        <meta property="og:title" content="Express Web Support – Trusted Experts In Shopify Customization" />
+        <meta property="og:description" content="Our Shopify experts provide the best Shopify technical help for those who need it. Live chat with an agent now to get an instant quote." />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content={`${window?.origin}/assets/images/seo-img.png`} />
+        <meta property="og:image:url" content={`${window?.origin}/assets/images/seo-img.png`} />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="Express Web Support" />
+        <meta property="og:url" content={window?.origin} />
+        <meta property="og:site_name" content="Express Web Support" />
+        <meta property="og:locale" content="en_US" />
+      </Helmet>
+      {/* <SuperSEO
         title="Express Web Support – Trusted Experts In Shopify Customization"
         description="Our Shopify experts provide the best Shopify technical help for those who need it. Live chat with an agent now to get an instant quote."
         lang="en"
@@ -36,7 +49,7 @@ const Home = () => {
             summaryCardImageAlt: "Express Web Support",
           },
         }}
-      />
+      /> */}
       <div>
         <section className="bg-sandel-clr lg:bg-hero-pattern  bg-cover bg-no-repeat bg-center">
           <Navbar />
