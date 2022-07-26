@@ -1,19 +1,19 @@
 {
-    "us": {
-        "currencyCode": "USD",
-        "amount": "49"
-    },
-    "nz": {
-        "currencyCode": "NZD",
-        "amount": "49"
-    },
-    "au": {
-        "currencyCode": "AUD",
-        "amount": "49"
-    },
-    "in": {
-        "currencyCode": "₹",
-        "amount": "2499",
-        "symbol": true
-    }
+  "us": {
+    "currencyCode": "USD",
+    "amount": "49"
+  },
+  "nz": {
+    "currencyCode": "NZD",
+    "amount": "49"
+  },
+  "au": {
+    "currencyCode": "AUD",
+    "amount": "49"
+  },
+  "in": {
+    "currencyCode": "₹",
+    "amount": "1999",
+    "symbol": true
+  }
 }
