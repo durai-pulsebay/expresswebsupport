@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../../components/navbar/navbar";
+import {Helmet} from "react-helmet";
 import { SuperSEO } from "react-super-seo";
 import price from "../../data/price.json";
 
@@ -10,7 +11,21 @@ const Home = () => {
   ) : `${price?.us?.amount} ${price?.us?.currencyCode}`
   return (
     <>
-      <SuperSEO
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Express Web Support – Trusted Experts In Shopify Customization</title>
+        <meta name="description" content="Our Shopify experts provide the best Shopify technical help for those who need it. Live chat with an agent now to get an instant quote." />
+        <meta property="og:title" content="Express Web Support – Trusted Experts In Shopify Customization" />
+        <meta property="og:description" content="Our Shopify experts provide the best Shopify technical help for those who need it. Live chat with an agent now to get an instant quote." />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content={`${window?.origin}/assets/images/seo-img.png`} />
+        <meta property="og:image:url" content={`${window?.origin}/assets/images/seo-img.png`} />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="Express Web Support" />
+      </Helmet>
+      {/* <SuperSEO
         title="Express Web Support – Trusted Experts In Shopify Customization"
         description="Our Shopify experts provide the best Shopify technical help for those who need it. Live chat with an agent now to get an instant quote."
         lang="en"
@@ -29,7 +44,7 @@ const Home = () => {
             summaryCardImageAlt: "Express Web Support",
           },
         }}
-      />
+      /> */}
       <div>
         <section className="bg-sandel-clr lg:bg-hero-pattern  bg-cover bg-no-repeat bg-center">
           <Navbar />
