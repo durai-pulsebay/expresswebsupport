@@ -13,7 +13,7 @@ const Contact = () => {
         openGraph={{
           ogImage: {
             ogImage: `{${window.origin}/assets/images/seo-img.png}`,
-            ogImageAlt: "Express Shopify Support",
+            ogImageAlt: "Express Web Support",
             ogImageWidth: 1200,
             ogImageHeight: 630,
             ogImageType: "image/jpeg",
@@ -22,7 +22,7 @@ const Contact = () => {
         twitter={{
           twitterSummaryCard: {
             summaryCardImage: `{${window.origin}/assets/images/seo-img.png}`,
-            summaryCardImageAlt: "Express Shopify Support",
+            summaryCardImageAlt: "Express Web Support",
           },
         }}
       >
@@ -196,7 +196,7 @@ const Contact = () => {
             You can choose to set your browser to remove or reject browser
             cookies before using our website, with the drawback that certain
             features of the websites may not function properly without the aid
-            of cookies. Express Shopify Support will respond to “do not track”
+            of cookies. Express Web Support will respond to “do not track”
             signals across and will not track your device.
           </p>
           <h3 className="font-medium capitalize text-xl pb-2 text-dark-green">
@@ -238,7 +238,7 @@ const Contact = () => {
         {/* <div class="container mx-auto p-5">
                     <div class="flex flex-wrap items-center justify-around w-full">
                         <div class="p-5 md:pr-20">
-                            <p class="pb-3">This privacy notice for Express Shopify Support (<span class="font-semibold">"Company," "we," "us," or "our"</span>), describes how and why we might collect, store, use, and/or share ("<span class="font-semibold">process</span>") your information when you use our services ("<span class="font-semibold">Servicess</span>"), such as Shopify advice and support.</p>
+                            <p class="pb-3">This privacy notice for Express Web Support (<span class="font-semibold">"Company," "we," "us," or "our"</span>), describes how and why we might collect, store, use, and/or share ("<span class="font-semibold">process</span>") your information when you use our services ("<span class="font-semibold">Servicess</span>"), such as Shopify advice and support.</p>
 
                             <p class="pb-8"><span class="font-semibold">Questions or concerns?</span> Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at admin@expressshopifysupport.com</p>
 

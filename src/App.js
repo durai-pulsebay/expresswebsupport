@@ -103,6 +103,9 @@ export default function App() {
           {/* <Route path="/:country/refund-policy">
             <RefundPolicyPage />
           </Route> */}
+          {/* <Route path="/:country/refund-policy">
+            <RefundPolicyPage />
+          </Route> */}
           <Route path="/:country/successful-payment">
             <SuccessfullPaymentPage />
           </Route>
