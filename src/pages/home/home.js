@@ -138,7 +138,7 @@ const Home = () => {
                   alt=""
                 />
                 <p className="text-[#91d63f] text-center text-2xl my-5 md:w-[80%] ">
-                  Price Starts From &nbsp;
+                  Price Starts From ;
                   <span
                     className="text-[#ffffff] text-7xl font-semibold"
                     dangerouslySetInnerHTML={{ __html: priceWithCurrencyCode }}
