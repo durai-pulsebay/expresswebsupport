@@ -5,10 +5,10 @@ import { SuperSEO } from "react-super-seo";
 import price from "../../data/price.json";
 
 const Home = () => {
-  const priceWithCurrencyCode = price[window?.countryCode] !== undefined ? ( price[window?.countryCode]?.symbol === true ? 
+  const priceWithCurrencyCode = window?.countryCode !== undefined ? ( price[window?.countryCode] ? ( price[window?.countryCode]?.symbol === true ? 
     `${price[window?.countryCode]?.currencyCode}${price[window?.countryCode]?.amount}` : 
     (price[window?.countryCode]?.amount + `<span class="text-3xl">` + price[window?.countryCode]?.currencyCode + `</span>`)
-  ) : `${price?.us?.amount} ${price?.us?.currencyCode}`
+  ) : `${price?.us?.amount} ${price?.us?.currencyCode}` ) : ''
   return (
     <>
       <Helmet>
@@ -24,6 +24,9 @@ const Home = () => {
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:image:alt" content="Express Web Support" />
+        <meta property="og:url" content={window?.origin} />
+        <meta property="og:site_name" content="Express Web Support" />
+        <meta property="og:locale" content="en_US" />
       </Helmet>
       {/* <SuperSEO
         title="Express Web Support – Trusted Experts In Shopify Customization"
