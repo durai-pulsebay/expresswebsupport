@@ -1,8 +1,13 @@
 import React from "react";
 import Navbar from "../../components/navbar/navbar";
 import { SuperSEO } from "react-super-seo";
+import price from "../../data/price.json";
 
 const Home = () => {
+  const priceWithCurrencyCode = price[window?.countryCode] !== undefined ? ( price[window?.countryCode]?.symbol === true ? 
+    `${price[window?.countryCode]?.currencyCode}${price[window?.countryCode]?.amount}` : 
+    (price[window?.countryCode]?.amount + `<span class="text-3xl">` + price[window?.countryCode]?.currencyCode + `</span>`)
+  ) : `${price?.us?.amount} ${price?.us?.currencyCode}`
   return (
     <>
       <SuperSEO
@@ -11,7 +16,7 @@ const Home = () => {
         lang="en"
         openGraph={{
           ogImage: {
-            ogImage: `{${window.origin}/assets/images/seo-img.png}`,
+            ogImage: `${window?.origin}/assets/images/seo-img.png`,
             ogImageAlt: "Express Web Support",
             ogImageWidth: 1200,
             ogImageHeight: 630,
@@ -20,7 +25,7 @@ const Home = () => {
         }}
         twitter={{
           twitterSummaryCard: {
-            summaryCardImage: `{${window.origin}/assets/images/seo-img.png}`,
+            summaryCardImage: `${window?.origin}/assets/images/seo-img.png`,
             summaryCardImageAlt: "Express Web Support",
           },
         }}
@@ -33,7 +38,7 @@ const Home = () => {
               <h1 className="text-[#144645] font-bold text-3xl	 sm:text-5xl leading-tight sm:leading-snug">
                 Fastest Shopify Support
                 <br />
-                In {window.countryName}
+                In {window?.countryName}
                 {/* In {params && params.country == 'in' ? 'India' : 'New Zealand'} */}
               </h1>
               <p className="m-4 max-w-4xl text-xl text-center mx-auto italic">
@@ -126,13 +131,11 @@ const Home = () => {
                   alt=""
                 />
                 <p className="text-[#91d63f] text-center text-2xl my-5 md:w-[80%] ">
-                  Plan Starts From
-                  <span className="text-[#ffffff] text-7xl font-semibold">
-                    $49
-                  </span>
+                  Plan Starts From &nbsp;
+                  <span className="text-[#ffffff] text-7xl font-semibold" dangerouslySetInnerHTML={{__html: priceWithCurrencyCode}}/>
                 </p>
                 <a
-                  className="bg-lite-green text-center font-medium text-[#252525] min-w-[100px] py-2 px-5 my-5 rounded "
+                  className="inline-block bg-lite-green text-center font-medium text-[#252525] min-w-[100px] py-2 px-5 rounded"
                   href=""
                 >
                   Fix My Issue
@@ -158,7 +161,7 @@ const Home = () => {
             <div className="lg:w-1/2 text-right py-5">
               <img
                 className="w-[80%] mx-auto"
-                src={`${window.origin}/assets/images/robo-ask.svg`}
+                src={`${window?.origin}/assets/images/robo-ask.svg`}
                 alt=""
               />
             </div>
@@ -201,7 +204,7 @@ const Home = () => {
             <div className="lg:w-1/2 py-5">
               <img
                 className="w-[80%] mx-auto"
-                src={`${window.origin}/assets/images/customer-ask.svg`}
+                src={`${window?.origin}/assets/images/customer-ask.svg`}
                 alt=""
               />
             </div>

@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className="container flex flex-wrap justify-between items-center mx-auto pb-2">
           <a
             href={`${window.origin}/${window.countryCode}/`}
-            className="max-w-[60%] "
+            className="max-w-[60%] self-start"
           >
             <img
               src={`${window.origin}/assets/images/logo.png`}

@@ -3,7 +3,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  useHistory,
+  // useHistory,
 } from "react-router-dom";
 
 import loadable from "@loadable/component";
