@@ -17,7 +17,7 @@ const Navbar = () => {
             />
           </a>
           <div className="flex  lg:order-2">
-            <a href="https://support.expressshopifysupport.com/support/login">
+            <a href="https://support.expresswebsupport.com/">
               <button
                 type="button"
                 className="text-white lg:block hidden bg-[#144645] hover:bg-[#226766] focus:ring-4 focus:outline-none  font-medium rounded-lg text-sm px-10 py-2.5 text-center mr-3 md:mr-0 "
