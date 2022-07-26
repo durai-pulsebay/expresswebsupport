@@ -175,8 +175,8 @@ const Home = () => {
                   src={`${window.origin}/assets/images/shopify-logo.svg`}
                   alt=""
                 />
-                <p className="text-[#91d63f] text-center text-2xl my-5 md:w-[80%] ">
-                  Price Starts From
+                <p className="text-[#91d63f] text-center text-2xl  my-5 md:w-[80%] ">
+                  Price Starts From&nbsp;
                   <span
                     className="text-[#ffffff] text-7xl font-semibold"
                     dangerouslySetInnerHTML={{ __html: priceWithCurrencyCode }}
