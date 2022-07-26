@@ -4,10 +4,17 @@ import { SuperSEO } from "react-super-seo";
 import price from "../../data/price.json";
 
 const Home = () => {
-  const priceWithCurrencyCode = price[window?.countryCode] !== undefined ? ( price[window?.countryCode]?.symbol === true ? 
-    `${price[window?.countryCode]?.currencyCode}${price[window?.countryCode]?.amount}` : 
-    (price[window?.countryCode]?.amount + `<span class="text-3xl">` + price[window?.countryCode]?.currencyCode + `</span>`)
-  ) : `${price?.us?.amount} ${price?.us?.currencyCode}`
+  const priceWithCurrencyCode =
+    price[window?.countryCode] !== undefined
+      ? price[window?.countryCode]?.symbol === true
+        ? `${price[window?.countryCode]?.currencyCode}${
+            price[window?.countryCode]?.amount
+          }`
+        : price[window?.countryCode]?.amount +
+          `<span class="text-3xl">` +
+          price[window?.countryCode]?.currencyCode +
+          `</span>`
+      : `${price?.us?.amount} ${price?.us?.currencyCode}`;
   return (
     <>
       <SuperSEO
@@ -131,8 +138,11 @@ const Home = () => {
                   alt=""
                 />
                 <p className="text-[#91d63f] text-center text-2xl my-5 md:w-[80%] ">
-                  Plan Starts From &nbsp;
-                  <span className="text-[#ffffff] text-7xl font-semibold" dangerouslySetInnerHTML={{__html: priceWithCurrencyCode}}/>
+                  Price Starts From &nbsp;
+                  <span
+                    className="text-[#ffffff] text-7xl font-semibold"
+                    dangerouslySetInnerHTML={{ __html: priceWithCurrencyCode }}
+                  />
                 </p>
                 <a
                   className="inline-block bg-lite-green text-center font-medium text-[#252525] min-w-[100px] py-2 px-5 rounded"
