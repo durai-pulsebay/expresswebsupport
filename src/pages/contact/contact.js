@@ -1,8 +1,47 @@
 import React from "react";
 import Navbar from "../../components/navbar/navbar";
 import { SuperSEO } from "react-super-seo";
+import { useState } from "react";
+import axios from "axios";
 
 const Contact = () => {
+
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [mobile, setMobileNumber] = useState("");
+  const [message, setMessage] = useState("");
+  const [formLoading, setFormLoading] = useState(false)
+  const [formSuccessMsg, setFormSuccessMsg] = useState(null)
+
+  let handleSubmit = async (e) => {
+    e.preventDefault()
+    let data = {
+      name: name,
+      email: email,
+      mobile: mobile,
+      message: message
+    }
+    setFormLoading(true)
+    axios.post(
+      "https://apps.expresswebsupport.com/api/send-contact-email", data
+    ).then(res => {
+      console.log(res)
+      setFormLoading(false)
+      setFormSuccessMsg(res?.data?.msg)
+      setTimeout(() => {
+        setFormSuccessMsg(null)
+      }, 3000);
+      setName("");
+      setEmail("");
+      setMobileNumber("");
+      setMessage("");
+    }).catch(err => {
+      // console.log(err)
+      setFormSuccessMsg(false)
+      setMessage("Some error occured");
+    })
+  };
+
   return (
     <>
       <SuperSEO
@@ -26,8 +65,9 @@ const Contact = () => {
         }}
       />
       <div>
-        <section className="bg-sandel-clr">
+        <section className="bg-sandel-clr App">
           <Navbar />
+
           <div className="container mx-auto p-5">
             <div className="flex flex-wrap items-center justify-around w-full">
               <div className="w-full lg:w-1/2 p-5 md:pr-20 ">
@@ -35,7 +75,7 @@ const Contact = () => {
                   Get In Touch
                 </h2>
                 <p className="mb-4 text-xl">Express Web Support</p>
-                <form>
+                <form onSubmit={handleSubmit}>
                   <div className="mb-4 ">
                     <label
                       htmlFor="name"
@@ -47,7 +87,9 @@ const Contact = () => {
                       type="text"
                       id="name"
                       className="bg-[#C0BFBA] border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-[#144645] focus:border-[#144645] block w-full p-2.5 "
+                      value={name}
                       placeholder="Name"
+                      onChange={(e) => setName(e.target.value)}
                       required
                     />
                   </div>
@@ -62,7 +104,9 @@ const Contact = () => {
                       type="number"
                       id="email"
                       className="bg-[#C0BFBA] border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-[#144645] focus:border-[#144645] block w-full p-2.5 "
-                      placeholder="Mobile"
+                      value={mobile}
+                      placeholder="Mobile Number"
+                      onChange={(e) => setMobileNumber(e.target.value)}
                       required
                     />
                   </div>
@@ -77,7 +121,9 @@ const Contact = () => {
                       type="email"
                       id="email"
                       className="bg-[#C0BFBA] border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-[#144645] focus:border-[#144645] block w-full p-2.5 "
-                      placeholder="E-mail"
+                      value={email}
+                      placeholder="Email"
+                      onChange={(e) => setEmail(e.target.value)}
                       required
                     />
                   </div>
@@ -91,16 +137,26 @@ const Contact = () => {
                     <textarea
                       className="bg-[#C0BFBA] border border-gray-300 w-full text-sm h-20 px-3 py-2 text-gray-700 placeholder-gray-600 focus:border-[#144645] rounded-lg focus:shadow-outline"
                       placeholder="Message"
+                      onChange={(e) => setMessage(e.target.value)}
+                      value={message}
                     ></textarea>
                   </div>
 
                   <button
+                    disabled={formLoading}
                     type="submit"
                     className="bg-dark-green text-[#fff]  hover:bg-[#144645]  font-medium rounded-sm text-sm sm:w-auto px-5 py-2.5 text-center dark:bg-[#144645] dark:hover:bg-[#144645] dark:focus:ring-[#144645]"
                   >
-                    Submit
+                    {formLoading ? "Loading..." : "Submit"}
                   </button>
                 </form>
+
+                {formSuccessMsg &&
+                  <div  >
+                    <p>{formSuccessMsg}</p>
+                  </div>
+                }
+
               </div>
               <div className="w-full lg:w-1/2 p-5 md:p-10 object-center ">
                 <img
