@@ -18,7 +18,11 @@ const Home = () => {
             `</span>`
         : `${price?.us?.amount} ${price?.us?.currencyCode}`
       : "";
-
+  function triggerChatButton(e) {
+    e.preventDefault();
+    const chatButtonId = document.querySelector('[id*="yii693dr"]').id;
+    document.getElementById(chatButtonId).click();
+  }
   return (
     <>
       <Helmet>
@@ -91,12 +95,14 @@ const Home = () => {
                 website problems. Get an instant quote for any Shopify related
                 design and development.
               </p>
-              <a
-                className="bg-[#68992D] inline-block  text-center font-medium text-[#fff] min-w-[100px] py-2 px-5 m-5 my-auto rounded "
-                href=""
+              <button
+                className="bg-[#68992D] hover:bg-[#86c935] inline-block  text-center font-medium text-[#fff] min-w-[100px] py-2 px-5 m-5 my-auto rounded "
+                onClick={(e) => {
+                  triggerChatButton(e);
+                }}
               >
                 Let's Get Started
-              </a>
+              </button>
               <div className=" flex w-[75%] flex-wrap items-center justify-around py-5 mx-auto">
                 <div className="lg:w-[40%] p-5">
                   <img src={`${window.origin}/assets/images/home-robo.svg`} />
@@ -182,12 +188,14 @@ const Home = () => {
                     dangerouslySetInnerHTML={{ __html: priceWithCurrencyCode }}
                   />
                 </p>
-                <a
-                  className="inline-block bg-lite-green text-center font-medium text-[#252525] min-w-[100px] py-2 px-5 rounded"
-                  href=""
+                <button
+                  className="inline-block bg-lite-green hover:bg-[#a5f247]  text-center font-medium text-[#252525] min-w-[100px] py-2 px-5 rounded"
+                  onClick={(e) => {
+                    triggerChatButton(e);
+                  }}
                 >
                   Fix My Issue
-                </a>
+                </button>
               </div>
             </div>
           </div>
@@ -224,12 +232,14 @@ const Home = () => {
                 possible. No job is too small or too large. We charge you only
                 for the number of hours we spend bringing the site to life.
               </p>
-              <a
-                className="bg-lite-green inline-block text-center font-medium text-[#ffffff] min-w-[100px] py-2 px-10 my-2 rounded-full "
-                href=""
+              <button
+                className="bg-lite-green hover:bg-[#5DA00D] inline-block text-center font-medium text-[#ffffff] min-w-[100px] py-2 px-10 my-2 rounded-full "
+                onClick={(e) => {
+                  triggerChatButton(e);
+                }}
               >
                 Customize Now
-              </a>
+              </button>
             </div>
             <div className="lg:w-1/2 py-5 md:pr-10  md:text-right">
               <h2 className="font-semibold capitalize text-2xl text-[#144645]">
@@ -237,17 +247,19 @@ const Home = () => {
               </h2>
               <p className="py-3  md:pl-[50px] ">
                 It's great to have a support service in place, but it'll be even
-                greater if you can get a quote instantly. Our live agents are
-                experts in helping small business owners on Shopify with a
-                variety of services such as installation, optimization, and
-                theme migration.
+                greater if you can get a quote instantly. With us, there is no
+                fancy contracts or cheesy conversations! Just talk to the
+                experts and we'll get the job done. It's that easy. We charge
+                you by the hour, which we will quote you immediately.
               </p>
-              <a
-                className="bg-lite-green inline-block text-center font-medium text-[#ffffff] min-w-[100px] py-2 px-10 my-2 rounded-full "
-                href=""
+              <button
+                className="bg-lite-green hover:bg-[#5DA00D] inline-block text-center font-medium text-[#ffffff] min-w-[100px] py-2 px-10 my-2 rounded-full "
+                onClick={(e) => {
+                  triggerChatButton(e);
+                }}
               >
                 Let's Chat
-              </a>
+              </button>
             </div>
             <div className="lg:w-1/2 py-5">
               <img

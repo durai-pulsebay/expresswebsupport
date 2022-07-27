@@ -5,6 +5,11 @@ import { SuperSEO } from "react-super-seo";
 
 const HowCanWeHelpPage = () => {
   let params = useParams();
+  function triggerChatButton(e) {
+    e.preventDefault();
+    const chatButtonId = document.querySelector('[id*="yii693dr"]').id;
+    document.getElementById(chatButtonId).click();
+  }
   return (
     <>
       <SuperSEO
@@ -37,14 +42,19 @@ const HowCanWeHelpPage = () => {
                   Need Help With Your Shopify Store? <br />
                   We Will Fix It{" "}
                 </h1>
-                <p className="my-5">
+                <p className="my-5 text-lg">
                   Our team of experts are here to help you. Whether you need a
                   little help or extensive support, Express Web Support is your
                   ultimate solution.
                 </p>
-                <a className="bg-[#91D63F] text-center font-medium text-[#fff] min-w-[100px] py-2 px-5  my-auto rounded">
-                  Fix my Issue
-                </a>
+                <button
+                  className="bg-[#91D63F] hover:bg-[#5DA00D] text-center font-medium text-[#fff] min-w-[100px] py-3 px-7  my-auto rounded"
+                  onClick={(e) => {
+                    triggerChatButton(e);
+                  }}
+                >
+                  Fix My Issue
+                </button>
               </div>
               <div className=" lg:w-1/2 pt-10 md:pt-0">
                 <img
