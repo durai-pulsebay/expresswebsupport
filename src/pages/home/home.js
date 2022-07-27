@@ -1,27 +1,52 @@
 import React from "react";
 import Navbar from "../../components/navbar/navbar";
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 import { SuperSEO } from "react-super-seo";
 import price from "../../data/price.json";
 
 const Home = () => {
+  const priceWithCurrencyCode =
+    window?.countryCode !== undefined
+      ? price[window?.countryCode]
+        ? price[window?.countryCode]?.symbol === true
+          ? `${price[window?.countryCode]?.currencyCode}${
+              price[window?.countryCode]?.amount
+            }`
+          : price[window?.countryCode]?.amount +
+            `<span class="text-3xl">` +
+            price[window?.countryCode]?.currencyCode +
+            `</span>`
+        : `${price?.us?.amount} ${price?.us?.currencyCode}`
+      : "";
 
-  const priceWithCurrencyCode = window?.countryCode !== undefined ? ( price[window?.countryCode] ? ( price[window?.countryCode]?.symbol === true ? 
-    `${price[window?.countryCode]?.currencyCode}${price[window?.countryCode]?.amount}` : 
-    (price[window?.countryCode]?.amount + `<span class="text-3xl">` + price[window?.countryCode]?.currencyCode + `</span>`)
-  ) : `${price?.us?.amount} ${price?.us?.currencyCode}` ) : ''
-  
   return (
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Express Web Support – Trusted Experts In Shopify Customization</title>
-        <meta name="description" content="Our Shopify experts provide the best Shopify technical help for those who need it. Live chat with an agent now to get an instant quote." />
-        <meta property="og:title" content="Express Web Support – Trusted Experts In Shopify Customization" />
-        <meta property="og:description" content="Our Shopify experts provide the best Shopify technical help for those who need it. Live chat with an agent now to get an instant quote." />
+        <title>
+          Express Web Support – Trusted Experts In Shopify Customization
+        </title>
+        <meta
+          name="description"
+          content="Our Shopify experts provide the best Shopify technical help for those who need it. Live chat with an agent now to get an instant quote."
+        />
+        <meta
+          property="og:title"
+          content="Express Web Support – Trusted Experts In Shopify Customization"
+        />
+        <meta
+          property="og:description"
+          content="Our Shopify experts provide the best Shopify technical help for those who need it. Live chat with an agent now to get an instant quote."
+        />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content={`${window?.origin}/assets/images/seo-img.png`} />
-        <meta property="og:image:url" content={`${window?.origin}/assets/images/seo-img.png`} />
+        <meta
+          property="og:image"
+          content={`${window?.origin}/assets/images/seo-img.png`}
+        />
+        <meta
+          property="og:image:url"
+          content={`${window?.origin}/assets/images/seo-img.png`}
+        />
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
@@ -150,8 +175,8 @@ const Home = () => {
                   src={`${window.origin}/assets/images/shopify-logo.svg`}
                   alt=""
                 />
-                <p className="text-[#91d63f] text-center text-2xl my-5 md:w-[80%] ">
-                  Price Starts From ;
+                <p className="text-[#91d63f] text-center text-2xl  my-5 md:w-[80%] ">
+                  Price Starts From&nbsp;
                   <span
                     className="text-[#ffffff] text-7xl font-semibold"
                     dangerouslySetInnerHTML={{ __html: priceWithCurrencyCode }}
@@ -190,7 +215,7 @@ const Home = () => {
             </div>
             <div className="lg:w-1/2 py-5">
               <h2 className="font-semibold capitalize text-2xl text-[#144645]">
-                We assist with a wide range of customizations
+                We Assist with a wide range of customizations
               </h2>
               <p className="py-3 max-w-md">
                 Shopify has many great features that can be hard for someone new
