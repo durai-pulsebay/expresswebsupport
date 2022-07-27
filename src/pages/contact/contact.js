@@ -105,7 +105,7 @@ const Contact = () => {
               <div className="w-full lg:w-1/2 p-5 md:p-10 object-center ">
                 <img
                   src={`${window.origin}/assets/images/contact-us.svg`}
-                  alt=""
+                  alt="contactus-img"
                 />
               </div>
             </div>

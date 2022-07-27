@@ -29,7 +29,7 @@ const HowCanWeHelpPage = () => {
         }}
       />
       <div>
-        <section className="bg-sandel-clr">
+        <div className="bg-sandel-clr">
           <Navbar />
           <div className="container mx-auto">
             <div className="flex flex-wrap text-center md:text-left items-center justify-center md:justify-between my-20 ">
@@ -56,7 +56,7 @@ const HowCanWeHelpPage = () => {
                 <img
                   className="md:p-5 text-right"
                   src={`${window.origin}/assets/images/hi-robo.svg`}
-                  alt=""
+                  alt="express-web-robo"
                 />
               </div>
             </div>
@@ -73,7 +73,7 @@ const HowCanWeHelpPage = () => {
                       className="pr-2"
                       src={`${window.origin}/assets/images/icon.svg`}
                       width="50px"
-                      alt=""
+                      alt="support-icon"
                     />
                     <p className="text-lg font-semibold">Header </p>
                   </div>
@@ -84,7 +84,7 @@ const HowCanWeHelpPage = () => {
                       className="pr-2"
                       src={`${window.origin}/assets/images/icon.svg`}
                       width="50px"
-                      alt=""
+                      alt="support-icon"
                     />
                     <p className="text-lg font-semibold">
                       Code Implementation{" "}
@@ -97,7 +97,7 @@ const HowCanWeHelpPage = () => {
                       className="pr-2"
                       src={`${window.origin}/assets/images/icon.svg`}
                       width="50px"
-                      alt=""
+                      alt="support-icon"
                     />
                     <p className="text-lg font-semibold">Cart & Check out </p>
                   </div>
@@ -108,7 +108,7 @@ const HowCanWeHelpPage = () => {
                       className="pr-2"
                       src={`${window.origin}/assets/images/icon.svg`}
                       width="50px"
-                      alt=""
+                      alt="support-icon"
                     />
                     <p className="text-lg font-semibold">Menu </p>
                   </div>
@@ -119,7 +119,7 @@ const HowCanWeHelpPage = () => {
                       className="pr-2"
                       src={`${window.origin}/assets/images/icon.svg`}
                       width="50px"
-                      alt=""
+                      alt="support-icon"
                     />
                     <p className="text-lg font-semibold">Integration/Feed </p>
                   </div>
@@ -130,7 +130,7 @@ const HowCanWeHelpPage = () => {
                       className="pr-2"
                       src={`${window.origin}/assets/images/icon.svg`}
                       width="50px"
-                      alt=""
+                      alt="support-icon"
                     />
                     <p className="text-lg font-semibold">Integration </p>
                   </div>
@@ -141,7 +141,7 @@ const HowCanWeHelpPage = () => {
                       className="pr-2"
                       src={`${window.origin}/assets/images/icon.svg`}
                       width="50px"
-                      alt=""
+                      alt="support-icon"
                     />
                     <p className="text-lg font-semibold">Banner Design </p>
                   </div>
@@ -152,7 +152,7 @@ const HowCanWeHelpPage = () => {
                       className="pr-2"
                       src={`${window.origin}/assets/images/icon.svg`}
                       width="50px"
-                      alt=""
+                      alt="support-icon"
                     />
                     <p className="text-lg font-semibold">Marketing </p>
                   </div>
@@ -163,7 +163,7 @@ const HowCanWeHelpPage = () => {
                       className="pr-2"
                       src={`${window.origin}/assets/images/icon.svg`}
                       width="50px"
-                      alt=""
+                      alt="support-icon"
                     />
                     <p className="text-lg font-semibold">
                       Theme Customization{" "}
@@ -176,7 +176,7 @@ const HowCanWeHelpPage = () => {
                       className="pr-2"
                       src={`${window.origin}/assets/images/icon.svg`}
                       width="50px"
-                      alt=""
+                      alt="support-icon"
                     />
                     <p className="text-lg font-semibold">Product Page</p>
                   </div>
@@ -187,7 +187,7 @@ const HowCanWeHelpPage = () => {
                       className="pr-2"
                       src={`${window.origin}/assets/images/icon.svg`}
                       width="50px"
-                      alt=""
+                      alt="support-icon"
                     />
                     <p className="text-lg font-semibold">Footer </p>
                   </div>
@@ -198,7 +198,7 @@ const HowCanWeHelpPage = () => {
                       className="pr-2"
                       src={`${window.origin}/assets/images/icon.svg`}
                       width="50px"
-                      alt=""
+                      alt="support-icon"
                     />
                     <p className="text-lg font-semibold">Custom Work </p>
                   </div>
@@ -209,7 +209,7 @@ const HowCanWeHelpPage = () => {
           <section className="container mx-auto">
             <div>
               <h2 className="py-10 font-bold text-4xl text-[#144645] ">
-                How We Deliver{" "}
+                How We Deliver
                 <span className="text-[#59ACA7] ">
                   Great Service With
                   <br /> Outstanding Value
@@ -220,7 +220,7 @@ const HowCanWeHelpPage = () => {
               <img
                 className="lg:w-[40%] p-4"
                 src={`${window.origin}/assets/images/customer-ask.svg`}
-                alt=""
+                alt="express-web-robo"
               />
               <div className=" lg:w-[60%] lg:flex lg:flex-wrap ">
                 <div className="p-5 w-[100%] lg:w-[50%]">
@@ -228,7 +228,7 @@ const HowCanWeHelpPage = () => {
                     <img
                       src={`${window.origin}/assets/images/Line 4.svg`}
                       width="100px"
-                      alt=""
+                      alt="line"
                     />
                     <h2 className="text-4xl p-3 font-semibold text-[#59ACA7]">
                       1
@@ -250,7 +250,7 @@ const HowCanWeHelpPage = () => {
                     <img
                       src={`${window.origin}/assets/images/Line 4.svg`}
                       width="100px"
-                      alt=""
+                      alt="line"
                     />
                     <h2 className="text-4xl p-3 font-semibold text-[#59ACA7]">
                       2
@@ -272,7 +272,7 @@ const HowCanWeHelpPage = () => {
                     <img
                       src={`${window.origin}/assets/images/Line 4.svg`}
                       width="100px"
-                      alt=""
+                      alt="line"
                     />
                     <h2 className="text-4xl p-3 font-semibold text-[#59ACA7]">
                       3
@@ -293,7 +293,78 @@ const HowCanWeHelpPage = () => {
               </div>
             </div>
           </section>
-        </section>
+          <section className="bg-[#59ACA7] pb-10">
+            <div className="container mx-auto">
+              <div className="flex flex-wrap justify-center  items-center">
+                <div className="w-[100%] lg:w-[50%] lg:pr-20 py-10">
+                  <h2 className="py-5 font-bold text-4xl text-[#144645] capitalize">
+                    Would you like a custom-built website?{" "}
+                  </h2>
+                  <p className="text-white text-lg">
+                    We can help you develop a fresh theme that performs well and
+                    is SEO-friendly. If you're ready to take your business to
+                    the next level, we're here to help.
+                  </p>
+                </div>
+                <div className="w-[100%] lg:w-[40%] mx-auto">
+                  <form>
+                    <div className="mb-4 ">
+                      <label
+                        htmlFor="name"
+                        className="sr-only mb-2 text-sm font-medium text-gray-900 "
+                      >
+                        Name
+                      </label>
+                      <input
+                        type="text"
+                        id="name"
+                        className="bg-[#B6FFFB] border border-[#32aca6] text-gray-900 text-sm rounded-lg focus:ring-[#144645] focus:border-[#144645] block w-full p-2.5 "
+                        placeholder="Name"
+                        required
+                      />
+                    </div>
+                    <div className="mb-4">
+                      <label
+                        htmlFor="Mobile"
+                        className="sr-only mb-2 text-sm font-medium text-gray-900 "
+                      >
+                        Mobile
+                      </label>
+                      <input
+                        type="number"
+                        id="email"
+                        className="bg-[#B6FFFB] border border-[#32aca6] text-gray-900 text-sm rounded-lg focus:ring-[#144645] focus:border-[#144645] block w-full p-2.5 "
+                        placeholder="Mobile"
+                        required
+                      />
+                    </div>
+                    <div className="mb-4">
+                      <label
+                        htmlFor="E-Mail"
+                        className="sr-only mb-2 text-sm font-medium text-gray-900 "
+                      >
+                        E-Mail
+                      </label>
+                      <input
+                        type="email"
+                        id="email"
+                        className="bg-[#B6FFFB] border border-[#32aca6] text-gray-900 text-sm rounded-lg focus:ring-[#144645] focus:border-[#144645] block w-full p-2.5 "
+                        placeholder="E-mail"
+                        required
+                      />
+                    </div>
+                    <button
+                      type="submit"
+                      className="bg-dark-green text-[#fff]  hover:bg-[#144645]  font-medium rounded-sm text-sm sm:w-auto px-5 py-2.5 text-center dark:bg-[#144645] dark:hover:bg-[#144645] dark:focus:ring-[#144645]"
+                    >
+                      Submit
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
       </div>
     </>
   );
