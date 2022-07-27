@@ -21,7 +21,7 @@ const Home = () => {
       : "";
   return (
     <>
-      <Helmet>
+      {/* <Helmet>
         <meta charSet="utf-8" />
         <title>
           Express Web Support – Trusted Experts In Shopify Customization
@@ -54,7 +54,7 @@ const Home = () => {
         <meta property="og:url" content={window?.origin} />
         <meta property="og:site_name" content="Express Web Support" />
         <meta property="og:locale" content="en_US" />
-      </Helmet>
+      </Helmet> */}
       {/* <SuperSEO
         title="Express Web Support – Trusted Experts In Shopify Customization"
         description="Our Shopify experts provide the best Shopify technical help for those who need it. Live chat with an agent now to get an instant quote."

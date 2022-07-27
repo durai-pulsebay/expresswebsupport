@@ -8,7 +8,7 @@ const HowCanWeHelpPage = () => {
   let params = useParams();
   return (
     <>
-      <SuperSEO
+      {/* <SuperSEO
         title="Express Web Support - Get Instant Help For Your Shopify Site"
         description="Get your Shopify site customized in less than 48 hours. Just a little help or extensive support, Express Web Support is your ultimate solution."
         lang="en"
@@ -27,7 +27,7 @@ const HowCanWeHelpPage = () => {
             summaryCardImageAlt: "Express Web Support",
           },
         }}
-      />
+      /> */}
       <div>
         <section className="bg-sandel-clr">
           <Navbar />
