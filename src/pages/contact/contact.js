@@ -5,7 +5,7 @@ import { SuperSEO } from "react-super-seo";
 const Contact = () => {
   return (
     <>
-      <SuperSEO
+      {/* <SuperSEO
         title="Express Web Support - Get it all done! From just $49"
         description="Express Web Support can help you with anything from building a new store to fixing any issue you’re having. Talk to an expert now."
         lang="en"
@@ -24,7 +24,7 @@ const Contact = () => {
             summaryCardImageAlt: "Express Web Support",
           },
         }}
-      />
+      /> */}
       <div>
         <section className="bg-sandel-clr">
           <Navbar />
