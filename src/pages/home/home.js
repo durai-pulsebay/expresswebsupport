@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../../components/navbar/navbar";
 import { Helmet } from "react-helmet";
 import { SuperSEO } from "react-super-seo";
+import { triggerChatButton } from "../../utils/common";
 import price from "../../data/price.json";
 
 const Home = () => {
@@ -18,11 +19,6 @@ const Home = () => {
             `</span>`
         : `${price?.us?.amount} ${price?.us?.currencyCode}`
       : "";
-  function triggerChatButton(e) {
-    e.preventDefault();
-    const chatButtonId = document.querySelector('[id*="yii693dr"]').id;
-    document.getElementById(chatButtonId).click();
-  }
   return (
     <>
       <Helmet>

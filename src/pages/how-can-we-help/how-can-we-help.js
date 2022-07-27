@@ -2,14 +2,10 @@ import React from "react";
 import Navbar from "../../components/navbar/navbar";
 import { useParams } from "react-router-dom";
 import { SuperSEO } from "react-super-seo";
+import { triggerChatButton } from "../../utils/common";
 
 const HowCanWeHelpPage = () => {
   let params = useParams();
-  function triggerChatButton(e) {
-    e.preventDefault();
-    const chatButtonId = document.querySelector('[id*="yii693dr"]').id;
-    document.getElementById(chatButtonId).click();
-  }
   return (
     <>
       <SuperSEO
