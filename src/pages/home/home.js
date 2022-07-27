@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "../../components/navbar/navbar";
 import { Helmet } from "react-helmet";
 import { SuperSEO } from "react-super-seo";
-import { triggerChatButton } from "../../utils/common";
 import price from "../../data/price.json";
 
 const Home = () => {
@@ -19,6 +18,11 @@ const Home = () => {
             `</span>`
         : `${price?.us?.amount} ${price?.us?.currencyCode}`
       : "";
+  function triggerChatButton(e) {
+    e.preventDefault();
+    const chatButtonId = document.querySelector('[id*="yii693dr"]').id;
+    document.getElementById(chatButtonId).click();
+  }
   return (
     <>
       <Helmet>
@@ -101,12 +105,16 @@ const Home = () => {
               </button>
               <div className=" flex w-[75%] flex-wrap items-center justify-around py-5 mx-auto">
                 <div className="lg:w-[40%] p-5">
-                  <img src={`${window.origin}/assets/images/home-robo.svg`} />
+                  <img
+                    src={`${window.origin}/assets/images/home-robo.svg`}
+                    alt="express-web-robo"
+                  />
                 </div>
                 <div className="lg:w-[60%] lg:bg-hero-line bg-no-repeat bg-center bg-auto flex flex-wrap items-center justify-center">
                   <div className="w-[100%] lg:w-[50%] py-3 flex flex-col items-center justify-center">
                     <img
                       src={`${window.origin}/assets/images/chat.svg`}
+                      alt="chat-icon"
                       className="w-[40%] bg-sandel-clr"
                     />
                     <h3 className="text-lg py-2 font-medium text-[#144645]">
@@ -116,6 +124,7 @@ const Home = () => {
                   <div className="w-[100%] lg:w-[50%] py-3 flex flex-col items-center justify-center">
                     <img
                       src={`${window.origin}/assets/images/quote.svg`}
+                      alt="quote-icon"
                       className="w-[40%]"
                     />
                     <h3 className="text-lg bg-sandel-clr py-2 font-medium">
@@ -125,6 +134,7 @@ const Home = () => {
                   <div className="w-[100%] lg:w-[50%] py-3 flex flex-col items-center justify-center">
                     <img
                       src={`${window.origin}/assets/images/code.svg`}
+                      alt="code-icon"
                       className="w-[40%]"
                     />
                     <h3 className="text-lg bg-sandel-clr py-2 font-medium">
@@ -143,7 +153,7 @@ const Home = () => {
                 <img
                   className="py-5"
                   src={`${window.origin}/assets/images/shield.png`}
-                  alt=""
+                  alt="shield-icon"
                   width="100px;"
                 />
                 <h2 className="text-3xl font-bold text-dark-green">
@@ -165,7 +175,7 @@ const Home = () => {
                   <img
                     className="p-3"
                     src={`${window.origin}/assets/images/icon-smile.png`}
-                    alt=""
+                    alt="smile-icon"
                   />
                 </div>
               </div>
@@ -175,7 +185,7 @@ const Home = () => {
                 <img
                   className="p-5 md:w-[70%]"
                   src={`${window.origin}/assets/images/shopify-logo.svg`}
-                  alt=""
+                  alt="shopify-logo"
                 />
                 <p className="text-[#91d63f] text-center text-2xl  my-5 md:w-[80%] ">
                   Price Starts From&nbsp;
@@ -214,7 +224,7 @@ const Home = () => {
               <img
                 className="w-[80%] mx-auto"
                 src={`${window?.origin}/assets/images/robo-ask.svg`}
-                alt=""
+                alt="express-web-robo"
               />
             </div>
             <div className="lg:w-1/2 py-5">
@@ -261,7 +271,7 @@ const Home = () => {
               <img
                 className="w-[80%] mx-auto"
                 src={`${window?.origin}/assets/images/customer-ask.svg`}
-                alt=""
+                alt="express-web-robo"
               />
             </div>
           </div>
