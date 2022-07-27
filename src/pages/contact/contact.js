@@ -86,11 +86,11 @@ const Contact = () => {
                       htmlFor="text-area"
                       className="sr-only mb-2 text-sm font-medium text-gray-900 "
                     >
-                      Text Area
+                      Message
                     </label>
                     <textarea
                       className="bg-[#C0BFBA] border border-gray-300 w-full text-sm h-20 px-3 py-2 text-gray-700 placeholder-gray-600 focus:border-[#144645] rounded-lg focus:shadow-outline"
-                      placeholder="Text Area"
+                      placeholder="Message"
                     ></textarea>
                   </div>
 
