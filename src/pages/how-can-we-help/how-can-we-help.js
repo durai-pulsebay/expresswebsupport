@@ -220,7 +220,7 @@ const HowCanWeHelpPage = () => {
               <img
                 className="lg:w-[40%] p-4"
                 src={`${window.origin}/assets/images/customer-ask.svg`}
-                alt="express-web-robo"
+                alt="support-icon"
               />
               <div className=" lg:w-[60%] lg:flex lg:flex-wrap ">
                 <div className="p-5 w-[100%] lg:w-[50%]">

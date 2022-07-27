@@ -107,7 +107,7 @@ const Home = () => {
                 <div className="lg:w-[40%] p-5">
                   <img
                     src={`${window.origin}/assets/images/home-robo.svg`}
-                    alt="express-web-robo"
+                    alt="Shopify Support"
                   />
                 </div>
                 <div className="lg:w-[60%] lg:bg-hero-line bg-no-repeat bg-center bg-auto flex flex-wrap items-center justify-center">
@@ -121,7 +121,7 @@ const Home = () => {
                       Help Us Understand
                     </h3>
                   </div>
-                  <div className="w-[100%] lg:w-[50%] py-3 flex flex-col items-center justify-center">
+                  <div className="w-[100%] lg :w-[50%] py-3 flex flex-col items-center justify-center">
                     <img
                       src={`${window.origin}/assets/images/quote.svg`}
                       alt="quote-icon"
@@ -224,7 +224,7 @@ const Home = () => {
               <img
                 className="w-[80%] mx-auto"
                 src={`${window?.origin}/assets/images/robo-ask.svg`}
-                alt="express-web-robo"
+                alt="Shopify Support"
               />
             </div>
             <div className="lg:w-1/2 py-5">
@@ -271,7 +271,7 @@ const Home = () => {
               <img
                 className="w-[80%] mx-auto"
                 src={`${window?.origin}/assets/images/customer-ask.svg`}
-                alt="express-web-robo"
+                alt="Shopify Support"
               />
             </div>
           </div>
