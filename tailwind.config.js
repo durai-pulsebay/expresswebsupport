@@ -16,7 +16,7 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('/public/assets/images/hero-bg.svg')",
         "hero-why-us": "url('/public/assets/images/bg-home.svg')",
-        "hero-line": "url('/public/assets/images/line.svg')",
+        "hero-line": "url('/public/assets/images/line2.svg')",
       },
       spacing: {
         "50px": "50px",
