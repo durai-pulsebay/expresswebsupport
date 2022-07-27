@@ -215,7 +215,7 @@ const Home = () => {
             </div>
             <div className="lg:w-1/2 py-5">
               <h2 className="font-semibold capitalize text-2xl text-[#144645]">
-                We assist with a wide range of customizations
+                We Assist with a wide range of customizations
               </h2>
               <p className="py-3 max-w-md">
                 Shopify has many great features that can be hard for someone new
