@@ -22,7 +22,7 @@ const HowCanWeHelpPage = () => {
       name: name,
       email: email,
       mobile: mobile,
-      subject: 'Custom-Built Website',
+      subject: 'Custom Built Website',
       message: ' '
     }
     setFormLoading(true)
