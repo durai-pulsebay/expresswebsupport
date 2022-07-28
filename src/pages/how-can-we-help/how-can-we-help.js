@@ -3,9 +3,47 @@ import Navbar from "../../components/navbar/navbar";
 import { useParams } from "react-router-dom";
 import { SuperSEO } from "react-super-seo";
 import { triggerChatButton } from "../../utils/common";
+import { useState } from "react";
+import axios from "axios";
 
 const HowCanWeHelpPage = () => {
-  let params = useParams();
+
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [mobile, setMobileNumber] = useState("");
+  const [formLoading, setFormLoading] = useState(false)
+  const [formSuccessMsg, setFormSuccessMsg] = useState(null)
+
+
+
+  let handleSubmit = async (e) => {
+    e.preventDefault()
+    let data = {
+      name: name,
+      email: email,
+      mobile: mobile,
+      subject: 'Custom-Built Website',
+      message: ' '
+    }
+    setFormLoading(true)
+    axios.post(
+      "https://apps.expresswebsupport.com/api/send-contact-email", data
+    ).then(res => {
+      console.log(res)
+      setFormLoading(false)
+      setFormSuccessMsg(res?.data?.msg)
+      setTimeout(() => {
+        setFormSuccessMsg(null)
+      }, 3000);
+      setName("");
+      setEmail("");
+      setMobileNumber("");
+    }).catch(err => {
+      // console.log(err)
+      setFormSuccessMsg(false)
+    })
+  };
+
   return (
     <>
       <SuperSEO
@@ -307,7 +345,7 @@ const HowCanWeHelpPage = () => {
                   </p>
                 </div>
                 <div className="w-[100%] lg:w-[40%] mx-auto">
-                  <form>
+                  <form onSubmit={handleSubmit}>
                     <div className="mb-4 ">
                       <label
                         htmlFor="name"
@@ -319,7 +357,9 @@ const HowCanWeHelpPage = () => {
                         type="text"
                         id="name"
                         className="bg-[#B6FFFB] border border-[#32aca6] text-gray-900 text-sm rounded-lg focus:ring-[#144645] focus:border-[#144645] block w-full p-2.5 "
+                        value={name}
                         placeholder="Name"
+                        onChange={(e) => setName(e.target.value)}
                         required
                       />
                     </div>
@@ -332,9 +372,11 @@ const HowCanWeHelpPage = () => {
                       </label>
                       <input
                         type="number"
-                        id="email"
+                        id="mobile"
                         className="bg-[#B6FFFB] border border-[#32aca6] text-gray-900 text-sm rounded-lg focus:ring-[#144645] focus:border-[#144645] block w-full p-2.5 "
-                        placeholder="Mobile"
+                        value={mobile}
+                        placeholder="Mobile Number"
+                        onChange={(e) => setMobileNumber(e.target.value)}
                         required
                       />
                     </div>
@@ -349,17 +391,25 @@ const HowCanWeHelpPage = () => {
                         type="email"
                         id="email"
                         className="bg-[#B6FFFB] border border-[#32aca6] text-gray-900 text-sm rounded-lg focus:ring-[#144645] focus:border-[#144645] block w-full p-2.5 "
-                        placeholder="E-mail"
+                        value={email}
+                        placeholder="Email"
+                        onChange={(e) => setEmail(e.target.value)}
                         required
                       />
                     </div>
                     <button
+                      disabled={formLoading}
                       type="submit"
                       className="bg-dark-green text-[#fff]  hover:bg-[#144645]  font-medium rounded-sm text-sm sm:w-auto px-5 py-2.5 text-center dark:bg-[#144645] dark:hover:bg-[#144645] dark:focus:ring-[#144645]"
                     >
-                      Submit
+                      {formLoading ? "Loading..." : "Submit"}
                     </button>
                   </form>
+                  {formSuccessMsg &&
+                    <div  >
+                      <p>{formSuccessMsg}</p>
+                    </div>
+                  }
                 </div>
               </div>
             </div>

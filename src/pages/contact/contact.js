@@ -19,6 +19,7 @@ const Contact = () => {
       name: name,
       email: email,
       mobile: mobile,
+      subject: 'Express Contact Form',
       message: message
     }
     setFormLoading(true)
@@ -67,7 +68,6 @@ const Contact = () => {
       <div>
         <section className="bg-sandel-clr App">
           <Navbar />
-
           <div className="container mx-auto p-5">
             <div className="flex flex-wrap items-center justify-around w-full">
               <div className="w-full lg:w-1/2 p-5 md:pr-20 ">
@@ -102,7 +102,7 @@ const Contact = () => {
                     </label>
                     <input
                       type="number"
-                      id="email"
+                      id="mobile"
                       className="bg-[#C0BFBA] border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-[#144645] focus:border-[#144645] block w-full p-2.5 "
                       value={mobile}
                       placeholder="Mobile Number"
