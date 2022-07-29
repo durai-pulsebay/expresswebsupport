@@ -206,7 +206,7 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <section className="lg:bg-hero-why-us bg-cover bg-no-repeat bg-right ">
+        <section className="bg-sandel-clr lg:bg-hero-why-us bg-cover bg-no-repeat bg-right ">
           <div className="container mx-auto text-center md:text-left flex flex-wrap justify-center items-center md:justify-between">
             <div className="lg:w-full py-10">
               <div>
