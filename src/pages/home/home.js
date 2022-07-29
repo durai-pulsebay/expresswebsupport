@@ -121,7 +121,7 @@ const Home = () => {
                       Help Us Understand
                     </h3>
                   </div>
-                  <div className="w-[40%] lg:w-[50%] py-3 flex flex-col items-center justify-center">
+                  <div className="w-[100%] lg:w-[50%] py-3 flex flex-col items-center justify-center">
                     <img
                       src={`${window.origin}/assets/images/doller.gif`}
                       alt="quote-icon"
