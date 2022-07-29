@@ -113,7 +113,7 @@ const Home = () => {
                 <div className="lg:w-[60%] lg:bg-hero-line bg-no-repeat bg-center bg-auto flex flex-wrap items-center justify-center">
                   <div className="w-[100%] lg:w-[50%] py-3 flex flex-col items-center justify-center">
                     <img
-                      src={`${window.origin}/assets/images/chat.svg`}
+                      src={`${window.origin}/assets/images/chat.gif`}
                       alt="chat-icon"
                       className="w-[40%] bg-sandel-clr"
                     />
@@ -123,7 +123,7 @@ const Home = () => {
                   </div>
                   <div className="w-[40%] lg:w-[50%] py-3 flex flex-col items-center justify-center">
                     <img
-                      src={`${window.origin}/assets/images/quote.svg`}
+                      src={`${window.origin}/assets/images/doller.gif`}
                       alt="quote-icon"
                       className="w-[40%]"
                     />
@@ -133,7 +133,7 @@ const Home = () => {
                   </div>
                   <div className="w-[100%] lg:w-[50%] py-3 flex flex-col items-center justify-center">
                     <img
-                      src={`${window.origin}/assets/images/code.svg`}
+                      src={`${window.origin}/assets/images/code.gif`}
                       alt="code-icon"
                       className="w-[40%]"
                     />
