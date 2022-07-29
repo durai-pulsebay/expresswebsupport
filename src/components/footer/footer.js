@@ -1,6 +1,8 @@
 import React from "react";
 
 const Footer = () => {
+  const today = new Date();
+  const year = today.getFullYear();
   return (
     <div>
       <footer className="mx-auto py-5 flex items-center flex-col bg-footer-black">
@@ -94,9 +96,10 @@ const Footer = () => {
               </a>
             </div>
             <p>
-              Copyrights 2022 All Rights Reserved{" "}
+              Copyrights © {year} All Rights Reserved
               <span className="font-medium text-[#91D63F]">
-                <a href="https://expressshopifysupport.com/">
+                <a href="https://expresswebsupport.com/">
+                  {" "}
                   Express Web Support
                 </a>
               </span>
